@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.10.1.201 for STM8                     23/Aug/2019  02:59:52
+# IAR ELF Linker V3.10.1.201 for STM8                     23/Aug/2019  06:06:29
 # Copyright 2010-2017 IAR Systems AB.
 #
 #    Output file  =  
@@ -8,7 +8,7 @@
 #    Map file     =  
 #        C:\Users\Admin\Desktop\Projects\stm8s\blink\Debug\List\blink.map
 #    Command line =  
-#        -f C:\Users\Admin\AppData\Local\Temp\EWB84D.tmp
+#        -f C:\Users\Admin\AppData\Local\Temp\EW8EF2.tmp
 #        (C:\Users\Admin\Desktop\Projects\stm8s\blink\Debug\Obj\main.o
 #        C:\Users\Admin\Desktop\Projects\stm8s\blink\Debug\Obj\stm8s_adc1.o
 #        C:\Users\Admin\Desktop\Projects\stm8s\blink\Debug\Obj\stm8s_awu.o
@@ -55,6 +55,14 @@ __rt_version               = 4
 
 "A0":  place at start of [0x000000-0x0000ff] { rw section .vregs };
 "A1":  place at end of [0x000000-0x0003ff] { block CSTACK };
+"P2":  place in [from 0x000000 to 0x0003ff] {
+          block HEAP, rw section __DLIB_PERTHREAD, rw section .far.bss,
+          rw section .far.data, rw section .far.noinit,
+          rw section .far_func.textrw, rw section .huge.bss,
+          rw section .huge.data, rw section .huge.noinit,
+          rw section .huge_func.textrw, rw section .iar.dynexit,
+          rw section .near.bss, rw section .near.data, rw section .near.noinit,
+          rw section .near_func.textrw };
 "A2":  place at start of [0x008000-0x009fff] { block INTVEC };
 "P3":  place in [from 0x008000 to 0x009fff] {
           ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
@@ -78,6 +86,10 @@ do not initialize {
   .vregs           uninit   0x000000    0xc  vregs.o [4]
                           - 0x00000c    0xc
 
+"P2":                                   0x4
+  .near.bss        zero     0x00000c    0x4  main.o [1]
+                          - 0x000010    0x4
+
 "A1":                                 0x100
   CSTACK                    0x000300  0x100  <Block>
     CSTACK         uninit   0x000300  0x100  <Block tail>
@@ -88,25 +100,49 @@ do not initialize {
     .intvec        const    0x008000   0x80  interrupt.o [4]
                           - 0x008080   0x80
 
-"P3-P5":                              0x23a
+"P3-P5":                              0x539
   .near_func.text  ro code  0x008080  0x110  stm8s_gpio.o [1]
-  .near.rodata     const    0x008190   0x51  stm8s_gpio.o [1]
-  .near_func.text  ro code  0x0081e1   0x51  vreg_util.o [4]
-  .near_func.text  ro code  0x008232   0x24  main.o [1]
-  .near_func.text  ro code  0x008256   0x14  init.o [4]
-  .near_func.text  ro code  0x00826a   0x14  __dbg_xxexit.o [3]
-  .near_func.text  ro code  0x00827e   0x13  cstartup.o [4]
-  .near_func.text  ro code  0x008291    0xa  main.o [1]
-  .near_func.text  ro code  0x00829b    0x7  stm8s_gpio.o [1]
-  .near_func.text  ro code  0x0082a2    0x5  cexit.o [4]
-  .near_func.text  ro code  0x0082a7    0x4  stm8s_gpio.o [1]
-  .near_func.text  ro code  0x0082ab    0x3  interrupt.o [4]
-  .near_func.text  ro code  0x0082ae    0x3  low_level_init.o [4]
-  .near_func.text  ro code  0x0082b1    0x3  exit.o [4]
-  .near_func.text  ro code  0x0082b4    0x3  unhandled_exception.o [4]
-  .near_func.text  ro code  0x0082b7    0x2  main.o [1]
-  .near_func.text  ro code  0x0082b9    0x1  __dbg_break.o [3]
-                          - 0x0082ba  0x23a
+  .near_func.text  ro code  0x008190   0x84  vreg_util.o [4]
+  .near_func.text  ro code  0x008214   0x55  main.o [1]
+  .near.rodata     const    0x008269   0x51  stm8s_gpio.o [1]
+  .near.rodata     const    0x0082ba   0x51  stm8s_tim4.o [1]
+  .near_func.text  ro code  0x00830b   0x51  stm8s_tim4.o [1]
+  .near.rodata     const    0x00835c   0x50  stm8s_clk.o [1]
+  .near_func.text  ro code  0x0083ac   0x50  stm8s_tim4.o [1]
+  .near_func.text  ro code  0x0083fc   0x3d  stm8s_clk.o [1]
+  .near_func.text  ro code  0x008439   0x3b  main.o [1]
+  .near_func.text  ro code  0x008474   0x2f  stm8s_tim4.o [1]
+  .near_func.text  ro code  0x0084a3   0x24  stm8s_tim4.o [1]
+  .near_func.text  ro code  0x0084c7   0x24  stm8s_tim4.o [1]
+  .iar.init_table  const    0x0084eb    0x8  - Linker created -
+  .near_func.text  ro code  0x0084f3   0x1e  init_small.o [4]
+  .near_func.text  ro code  0x008511   0x1b  main.o [1]
+  .near_func.text  ro code  0x00852c   0x1a  long_util.o [4]
+  .near_func.text  ro code  0x008546   0x19  long.o [4]
+  .near_func.text  ro code  0x00855f   0x14  init.o [4]
+  .near_func.text  ro code  0x008573   0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x008587   0x13  cstartup.o [4]
+  .near_func.text  ro code  0x00859a    0x7  stm8s_gpio.o [1]
+  .near_func.text  ro code  0x0085a1    0x5  cexit.o [4]
+  .near_func.text  ro code  0x0085a6    0x4  stm8s_gpio.o [1]
+  .near_func.text  ro code  0x0085aa    0x3  interrupt.o [4]
+  .near_func.text  ro code  0x0085ad    0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x0085b0    0x3  exit.o [4]
+  .near_func.text  ro code  0x0085b3    0x3  unhandled_exception.o [4]
+  .near_func.text  ro code  0x0085b6    0x2  main.o [1]
+  .near_func.text  ro code  0x0085b8    0x1  __dbg_break.o [3]
+                          - 0x0085b9  0x539
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address   Size
+          -------   ----
+Zero (__iar_zero_init2)
+    1 destination range, total size 0x4:
+          0x00000c   0x4
 
 
 
@@ -117,10 +153,12 @@ do not initialize {
     Module                 ro code  ro data  rw data
     ------                 -------  -------  -------
 C:\Users\Admin\Desktop\Projects\stm8s\blink\Debug\Obj: [1]
-    main.o                      48
+    main.o                     173                 4
+    stm8s_clk.o                 61       80
     stm8s_gpio.o               283       81
+    stm8s_tim4.o               280       81
     ------------------------------------------------
-    Total:                     331       81
+    Total:                     797      242        4
 
 command line: [2]
     ------------------------------------------------
@@ -137,17 +175,20 @@ dlstm8smn.a: [4]
     cstartup.o                  19
     exit.o                       3
     init.o                      20
+    init_small.o                30
     interrupt.o                  3      128
+    long.o                      25
+    long_util.o                 26
     low_level_init.o             3
     unhandled_exception.o        3
-    vreg_util.o                 81
+    vreg_util.o                132
     vregs.o                                       12
     ------------------------------------------------
-    Total:                     137      128       12
+    Total:                     269      128       12
 
-    Linker created                               256
+    Linker created                        8      256
 ----------------------------------------------------
-    Grand Total:               489      209      268
+    Grand Total:             1 087      378      272
 
 
 *******************************************************************************
@@ -156,6 +197,8 @@ dlstm8smn.a: [4]
 
 Entry                    Address   Size  Type      Object
 -----                    -------   ----  ----      ------
+.iar.init_table$$Base   0x0084eb          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x0084f3          --   Gb  - Linker created -
 ?b0                     0x000000         Data  Gb  vregs.o [4]
 ?b1                     0x000001         Data  Gb  vregs.o [4]
 ?b10                    0x00000a         Data  Gb  vregs.o [4]
@@ -168,44 +211,65 @@ Entry                    Address   Size  Type      Object
 ?b7                     0x000007         Data  Gb  vregs.o [4]
 ?b8                     0x000008         Data  Gb  vregs.o [4]
 ?b9                     0x000009         Data  Gb  vregs.o [4]
+?dec32_0x_0x            0x00854b         Code  Gb  long.o [4]
+?dec32_l0_l0            0x008546         Code  Gb  long.o [4]
 ?e0                     0x000001         Data  Gb  vregs.o [4]
 ?e1                     0x000005         Data  Gb  vregs.o [4]
 ?e2                     0x000009         Data  Gb  vregs.o [4]
-?epilogue_l2            0x00822e         Code  Gb  vreg_util.o [4]
+?epilogue_l2            0x00820c         Code  Gb  vreg_util.o [4]
+?epilogue_w4            0x008210         Code  Gb  vreg_util.o [4]
 ?l0                     0x000000         Data  Gb  vregs.o [4]
 ?l1                     0x000004         Data  Gb  vregs.o [4]
 ?l2                     0x000008         Data  Gb  vregs.o [4]
-?pop_l2                 0x00821b         Code  Gb  vreg_util.o [4]
-?push_l2                0x0081f9         Code  Gb  vreg_util.o [4]
-?push_w4                0x0081e1         Code  Gb  vreg_util.o [4]
+?load32_0x_l0           0x008538         Code  Gb  long_util.o [4]
+?load32_l0_0x           0x00852c         Code  Gb  long_util.o [4]
+?pop_l0                 0x0081e3         Code  Gb  vreg_util.o [4]
+?pop_l1                 0x0081ee         Code  Gb  vreg_util.o [4]
+?pop_l2                 0x0081f9         Code  Gb  vreg_util.o [4]
+?pop_w4                 0x0081a8         Code  Gb  vreg_util.o [4]
+?push_l0                0x0081b7         Code  Gb  vreg_util.o [4]
+?push_l1                0x0081bc         Code  Gb  vreg_util.o [4]
+?push_l2                0x0081c1         Code  Gb  vreg_util.o [4]
+?push_w4                0x008190         Code  Gb  vreg_util.o [4]
 ?w0                     0x000000         Data  Gb  vregs.o [4]
 ?w1                     0x000002         Data  Gb  vregs.o [4]
 ?w2                     0x000004         Data  Gb  vregs.o [4]
 ?w3                     0x000006         Data  Gb  vregs.o [4]
 ?w4                     0x000008         Data  Gb  vregs.o [4]
 ?w5                     0x00000a         Data  Gb  vregs.o [4]
+CLK_HSIPrescalerConfig  0x0083fc   0x3d  Code  Gb  stm8s_clk.o [1]
 CSTACK$$Base            0x000300          --   Gb  - Linker created -
 CSTACK$$Limit           0x000400          --   Gb  - Linker created -
-Delay                   0x008291    0xa  Code  Gb  main.o [1]
+Delay                   0x008511   0x1b  Code  Gb  main.o [1]
 GPIO_Init               0x008080  0x110  Code  Gb  stm8s_gpio.o [1]
-GPIO_WriteHigh          0x00829b    0x7  Code  Gb  stm8s_gpio.o [1]
-GPIO_WriteLow           0x0082a7    0x4  Code  Gb  stm8s_gpio.o [1]
+GPIO_WriteHigh          0x00859a    0x7  Code  Gb  stm8s_gpio.o [1]
+GPIO_WriteLow           0x0085a6    0x4  Code  Gb  stm8s_gpio.o [1]
 INTVEC$$Base            0x008000          --   Gb  - Linker created -
 INTVEC$$Limit           0x008080          --   Gb  - Linker created -
-Region$$Table$$Base   0x00000000          --   Gb  - Linker created -
-Region$$Table$$Limit  0x00000000          --   Gb  - Linker created -
-__DebugBreak            0x0082b9    0x1  Code  Gb  __dbg_break.o [3]
-__exit                  0x00826a   0x14  Code  Gb  __dbg_xxexit.o [3]
-__iar_data_init2        0x008256   0x14  Code  Gb  init.o [4]
-__iar_program_start     0x00827e         Code  Gb  cstartup.o [4]
+Region$$Table$$Base     0x0084eb          --   Gb  - Linker created -
+Region$$Table$$Limit    0x0084f3          --   Gb  - Linker created -
+TIM4_ClearFlag          0x0084a3   0x24  Code  Gb  stm8s_tim4.o [1]
+TIM4_ClearITPendingBit  0x0084c7   0x24  Code  Gb  stm8s_tim4.o [1]
+TIM4_Cmd                0x008474   0x2f  Code  Gb  stm8s_tim4.o [1]
+TIM4_ITConfig           0x0083ac   0x50  Code  Gb  stm8s_tim4.o [1]
+TIM4_TimeBaseInit       0x00830b   0x51  Code  Gb  stm8s_tim4.o [1]
+TIM4_UPD_OVF_IRQHandler
+                        0x008439   0x3b  Code  Gb  main.o [1]
+TimingDelay             0x00000c    0x4  Data  Gb  main.o [1]
+__DebugBreak            0x0085b8    0x1  Code  Gb  __dbg_break.o [3]
+__exit                  0x008573   0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_data_init2        0x00855f   0x14  Code  Gb  init.o [4]
+__iar_program_start     0x008587         Code  Gb  cstartup.o [4]
 __iar_unhandled_exception
-                        0x0082b4         Code  Gb  unhandled_exception.o [4]
+                        0x0085b3         Code  Gb  unhandled_exception.o [4]
+__iar_zero_init2        0x0084f3         Code  Gb  init_small.o [4]
 __intvec                0x008000         Data  Gb  interrupt.o [4]
-__low_level_init        0x0082ae    0x3  Code  Gb  low_level_init.o [4]
-_exit                   0x0082a2         Code  Gb  cexit.o [4]
-assert_failed           0x0082b7    0x2  Code  Gb  main.o [1]
-exit                    0x0082b1    0x3  Code  Gb  exit.o [4]
-main                    0x008232   0x24  Code  Gb  main.o [1]
+__low_level_init        0x0085ad    0x3  Code  Gb  low_level_init.o [4]
+_exit                   0x0085a1         Code  Gb  cexit.o [4]
+_interrupt_25           0x008439         Code  Gb  main.o [1]
+assert_failed           0x0085b6    0x2  Code  Gb  main.o [1]
+exit                    0x0085b0    0x3  Code  Gb  exit.o [4]
+main                    0x008214   0x55  Code  Gb  main.o [1]
 
 
 [1] = C:\Users\Admin\Desktop\Projects\stm8s\blink\Debug\Obj
@@ -213,9 +277,9 @@ main                    0x008232   0x24  Code  Gb  main.o [1]
 [3] = dbgstm8smd.a
 [4] = dlstm8smn.a
 
-  489 bytes of readonly  code memory
-  209 bytes of readonly  data memory
-  268 bytes of readwrite data memory
+  1 087 bytes of readonly  code memory
+    378 bytes of readonly  data memory
+    272 bytes of readwrite data memory
 
 Errors: none
 Warnings: none
