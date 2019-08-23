@@ -3,5 +3,8 @@
     <project>
         <path>$WS_DIR$\blink.ewp</path>
     </project>
+    <project>
+        <path>$WS_DIR$\..\uart\uart.ewp</path>
+    </project>
     <batchBuild />
 </workspace>

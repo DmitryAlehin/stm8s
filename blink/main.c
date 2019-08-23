@@ -1,5 +1,7 @@
 #include "stm8s.h"
+
 void Delay(void);
+
 int main( void )
 {
   GPIO_Init(GPIOB,GPIO_PIN_5,GPIO_MODE_OUT_OD_HIZ_SLOW);
