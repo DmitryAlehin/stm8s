@@ -106,7 +106,7 @@
             <IarPane-34085>
                 <expressions>
                     <item>Result</item>
-                    <item></item>
+                    <item />
                 </expressions>
                 <col-names>
                     <item>Expression</item>

@@ -27,7 +27,7 @@ int main( void )
               UART1_SYNCMODE_CLOCK_DISABLE, UART1_MODE_TXRX_ENABLE);
   UART1_Cmd(ENABLE);
   Result = GCD(NUMBER_ONE, NUMBER_TWO);
-  printf("Наименьший общий делитель чисел %d и %d: %d\r\n", NUMBER_ONE, NUMBER_TWO, Result);
+  printf("Наибольший общий делитель чисел %d и %d: %d\r\n", NUMBER_ONE, NUMBER_TWO, Result);
 }
 
 int16_t GCD(int16_t Number1, int16_t Number2)
