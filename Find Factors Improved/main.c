@@ -1,6 +1,6 @@
 #include "stm8s.h"
 #include "stdio.h"
-#define NUMBER 127
+#define NUMBER 15000
 
 #ifdef _RAISONANCE_
 #define PUTCHAR_PROTOTYPE int putchar (char c)
@@ -12,7 +12,7 @@
 #define PUTCHAR_PROTOTYPE int putchar (int c)
 #define GETCHAR_PROTOTYPE int getchar (void)
 #endif /* _RAISONANCE_ */
-uint16_t root1(uint16_t a);
+uint16_t int_sqrt(uint16_t a);
 void FindFactors(int16_t Number);
 int main( void )
 {
@@ -37,7 +37,7 @@ void FindFactors(int16_t Number)
     Number = Number / 2;
   }
   Factor = 3;
-  MaxFactor = root1(Number);
+  MaxFactor = int_sqrt(Number);
   while(Factor <= MaxFactor)
   {
     while(Number % Factor == 0)
@@ -45,7 +45,7 @@ void FindFactors(int16_t Number)
       NumberOfFactors++;
       printf("Factor%d:%d\r\n", NumberOfFactors, Factor);
       Number /= Factor;
-      MaxFactor = root1(Number);
+      MaxFactor = int_sqrt(Number);
     }
     Factor += 2;
   }
@@ -57,7 +57,7 @@ void FindFactors(int16_t Number)
   NumberOfFactors = 0;
 }
 
-uint16_t root1(uint16_t a)
+uint16_t int_sqrt(uint16_t a)
 {
    uint16_t x;
    x = (a/0x3f + 0x3f)>>1;
