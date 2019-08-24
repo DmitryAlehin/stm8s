@@ -1,0 +1,441 @@
+###############################################################################
+#
+# IAR ELF Linker V3.10.1.201 for STM8                     24/Aug/2019  04:27:28
+# Copyright 2010-2017 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Exe\Find Factors Improved.out
+#    Map file     =  
+#        C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\List\Find Factors Improved.map
+#    Command line =  
+#        -f C:\Users\Admin\AppData\Local\Temp\EW2FC7.tmp
+#        ("C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\main.o" "C:\Users\Admin\Desktop\Projects\stm8s\Find
+#        Factors Improved\Debug\Obj\stm8s_adc1.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_awu.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_beep.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_clk.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_exti.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_flash.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_gpio.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_i2c.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_itc.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_iwdg.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_rst.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_spi.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_tim1.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_tim2.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_tim4.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_uart1.o"
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Obj\stm8s_wwdg.o" --redirect _Printf=_PrintfLargeNoMb
+#        --redirect _Scanf=_ScanfSmallNoMb -o
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\Exe\Find Factors Improved.out" --map
+#        "C:\Users\Admin\Desktop\Projects\stm8s\Find Factors
+#        Improved\Debug\List\Find Factors Improved.map" --config "C:\Program
+#        Files (x86)\IAR Systems\Embedded Workbench
+#        8.0\stm8\config\lnkstm8s103f3.icf" --config_def _CSTACK_SIZE=0x100
+#        --config_def _HEAP_SIZE=0x100 --entry __iar_program_start --debug_lib)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+__SystemLibrary            = DLib
+__code_model               = small
+__core                     = stm8
+__data_model               = medium
+__dlib_file_descriptor     = 0
+__dlib_full_locale_support = 0
+__rt_version               = 4
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at start of [0x000000-0x0000ff] { rw section .vregs };
+"A1":  place at end of [0x000000-0x0003ff] { block CSTACK };
+"A2":  place at start of [0x008000-0x009fff] { block INTVEC };
+"P3":  place in [from 0x008000 to 0x009fff] {
+          ro section __DLIB_PERTHREAD_init, ro section .far.data_init,
+          ro section .far_func.textrw_init, ro section .huge.data_init,
+          ro section .huge_func.textrw_init, ro section .iar.init_table,
+          ro section .init_array, ro section .near.data_init,
+          ro section .near.rodata, ro section .near_func.text,
+          ro section .near_func.textrw_init, ro section .tiny.data_init,
+          ro section .tiny.rodata_init };
+"P4":  place in [from 0x008000 to 0x009fff] {
+          ro section .far.rodata, ro section .far_func.text };
+"P5":  place in [from 0x008000 to 0x009fff] {
+          ro section .huge.rodata, ro section .huge_func.text };
+do not initialize {
+   rw section .eeprom.noinit, rw section .far.noinit, rw section .huge.noinit,
+   rw section .near.noinit, rw section .tiny.noinit, rw section .vregs };
+
+  Section          Kind      Address    Size  Object
+  -------          ----      -------    ----  ------
+"A0":                                   0x10
+  .vregs           uninit   0x000000    0x10  vregs.o [4]
+                          - 0x000010    0x10
+
+"A1":                                  0x100
+  CSTACK                    0x000300   0x100  <Block>
+    CSTACK         uninit   0x000300   0x100  <Block tail>
+                          - 0x000400   0x100
+
+"A2":                                   0x80
+  INTVEC                    0x008000    0x80  <Block>
+    .intvec        const    0x008000    0x80  interrupt.o [4]
+                          - 0x008080    0x80
+
+"P3-P5":                              0x1ca5
+  .near_func.text  ro code  0x008080   0x45d  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x0084dd   0x424  float.o [4]
+  .near_func.text  ro code  0x008901   0x353  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x008c54   0x245  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x008e99   0x226  stm8s_uart1.o [1]
+  .near_func.text  ro code  0x0090bf   0x1bc  long.o [4]
+  .near_func.text  ro code  0x00927b   0x176  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x0093f1   0x135  vreg_util.o [4]
+  .near_func.text  ro code  0x009526    0xad  main.o [1]
+  .near_func.text  ro code  0x0095d3    0xab  stm8s_uart1.o [1]
+  .near_func.text  ro code  0x00967e    0x7b  stm8s_clk.o [1]
+  .near.rodata     const    0x0096f9    0x62  stm8s_uart1.o [1]
+  .near.rodata     const    0x00975b    0x60  stm8s_clk.o [1]
+  .near_func.text  ro code  0x0097bb    0x53  long_util.o [4]
+  .near_func.text  ro code  0x00980e    0x52  float_libsup.o [4]
+  .near_func.text  ro code  0x009860    0x4c  short.o [4]
+  .near_func.text  ro code  0x0098ac    0x43  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x0098ef    0x41  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009930    0x3d  stm8s_clk.o [1]
+  .near_func.text  const    0x00996d    0x36  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x0099a3    0x35  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x0099d8    0x33  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009a0b    0x30  div.o [4]
+  .near_func.text  ro code  0x009a3b    0x2f  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009a6a    0x2d  main.o [1]
+  .near_func.text  ro code  0x009a97    0x2d  stm8s_uart1.o [1]
+  .near_func.text  ro code  0x009ac4    0x2c  main.o [1]
+  .near_func.text  ro code  0x009af0    0x25  dc_util.o [4]
+  .near_func.text  ro code  0x009b15    0x21  memchr.o [4]
+  .near_func.text  ro code  0x009b36    0x1f  memcpy.o [4]
+  .near_func.text  ro code  0x009b55    0x1d  printf.o [4]
+  .near_func.text  ro code  0x009b72    0x1b  xprout.o [4]
+  .near_func.text  ro code  0x009b8d    0x19  main.o [1]
+  .near_func.text  ro code  0x009ba6    0x15  strchr.o [4]
+  .near_func.text  ro code  0x009bbb    0x14  init.o [4]
+  .near_func.text  ro code  0x009bcf    0x14  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009be3    0x14  __dbg_xxexit.o [3]
+  .near_func.text  ro code  0x009bf7    0x13  cstartup.o [4]
+  .near.rodata     const    0x009c0a     0xe  main.o [1]
+  .near_func.text  ro code  0x009c18     0xe  stm8s_uart1.o [1]
+  .near_func.text  ro code  0x009c26     0xd  strlen.o [4]
+  .near_func.text  ro code  0x009c33     0xd  move.o [4]
+  .near_func.text  ro code  0x009c40     0xc  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009c4c     0xc  switch.o [4]
+  .near_func.text  ro code  0x009c58     0xb  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009c63     0xb  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009c6e     0xb  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009c79     0xb  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009c84     0xa  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009c8e     0x9  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009c97     0x9  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009ca0     0x8  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009ca8     0x8  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009cb0     0x8  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009cb8     0x8  xprintflarge_nomb.o [4]
+  .near.rodata     const    0x009cc0     0x7  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009cc7     0x7  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009cce     0x6  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009cd4     0x6  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009cda     0x6  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009ce0     0x6  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009ce6     0x6  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009cec     0x6  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009cf2     0x5  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009cf7     0x5  cexit.o [4]
+  .near.rodata     const    0x009cfc     0x4  stm8s_clk.o [1]
+  .near.rodata     const    0x009d00     0x4  xprintflarge_nomb.o [4]
+  .near.rodata     const    0x009d04     0x4  xprintflarge_nomb.o [4]
+  .near.rodata     const    0x009d08     0x4  xprintflarge_nomb.o [4]
+  .near.rodata     const    0x009d0c     0x4  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009d10     0x4  stm8s_uart1.o [1]
+  .near_func.text  ro code  0x009d14     0x3  interrupt.o [4]
+  .near_func.text  ro code  0x009d17     0x3  low_level_init.o [4]
+  .near_func.text  ro code  0x009d1a     0x3  exit.o [4]
+  .near_func.text  ro code  0x009d1d     0x3  unhandled_exception.o [4]
+  .near.rodata     const    0x009d20     0x2  xprintflarge_nomb.o [4]
+  .near_func.text  ro code  0x009d22     0x2  main.o [1]
+  .near_func.text  ro code  0x009d24     0x1  __dbg_break.o [3]
+                          - 0x009d25  0x1ca5
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+C:\Users\Admin\Desktop\Projects\stm8s\Find Factors Improved\Debug\Obj: [1]
+    main.o                     289       14
+    stm8s_clk.o                184      100
+    stm8s_uart1.o              784       98
+    ------------------------------------------------
+    Total:                   1 257      212
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dbgstm8smd.a: [3]
+    __dbg_break.o                1
+    __dbg_xxexit.o              20
+    ------------------------------------------------
+    Total:                      21
+
+dlstm8smn.a: [4]
+    cexit.o                      5
+    cstartup.o                  19
+    dc_util.o                   37
+    div.o                       48
+    exit.o                       3
+    float.o                  1 060
+    float_libsup.o              82
+    init.o                      20
+    interrupt.o                  3      128
+    long.o                     444
+    long_util.o                 83
+    low_level_init.o             3
+    memchr.o                    33
+    memcpy.o                    31
+    move.o                      13
+    printf.o                    29
+    short.o                     76
+    strchr.o                    21
+    strlen.o                    13
+    switch.o                    12
+    unhandled_exception.o        3
+    vreg_util.o                309
+    vregs.o                                       16
+    xprintflarge_nomb.o      3 390       79
+    xprout.o                    27
+    ------------------------------------------------
+    Total:                   5 764      207       16
+
+    Linker created                               256
+----------------------------------------------------
+    Grand Total:             7 042      419      272
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?and32_l0_l0_0x           0x00923a         Code  Gb  long.o [4]
+?and32_l0_l0_l1           0x009237         Code  Gb  long.o [4]
+?b0                       0x000000         Data  Gb  vregs.o [4]
+?b1                       0x000001         Data  Gb  vregs.o [4]
+?b10                      0x00000a         Data  Gb  vregs.o [4]
+?b11                      0x00000b         Data  Gb  vregs.o [4]
+?b12                      0x00000c         Data  Gb  vregs.o [4]
+?b13                      0x00000d         Data  Gb  vregs.o [4]
+?b14                      0x00000e         Data  Gb  vregs.o [4]
+?b15                      0x00000f         Data  Gb  vregs.o [4]
+?b2                       0x000002         Data  Gb  vregs.o [4]
+?b3                       0x000003         Data  Gb  vregs.o [4]
+?b4                       0x000004         Data  Gb  vregs.o [4]
+?b5                       0x000005         Data  Gb  vregs.o [4]
+?b6                       0x000006         Data  Gb  vregs.o [4]
+?b7                       0x000007         Data  Gb  vregs.o [4]
+?b8                       0x000008         Data  Gb  vregs.o [4]
+?b9                       0x000009         Data  Gb  vregs.o [4]
+?dc32_l0                  0x009af0         Code  Gb  dc_util.o [4]
+?dc32_l1                  0x009afd         Code  Gb  dc_util.o [4]
+?dc32_px                  0x009b0a         Code  Gb  dc_util.o [4]
+?e0                       0x000001         Data  Gb  vregs.o [4]
+?e1                       0x000005         Data  Gb  vregs.o [4]
+?e2                       0x000009         Data  Gb  vregs.o [4]
+?e3                       0x00000d         Data  Gb  vregs.o [4]
+?epilogue_l2              0x00948b         Code  Gb  vreg_util.o [4]
+?epilogue_l2_l3           0x009488         Code  Gb  vreg_util.o [4]
+?epilogue_l2_w6           0x00948f         Code  Gb  vreg_util.o [4]
+?epilogue_w4              0x009496         Code  Gb  vreg_util.o [4]
+?fadd32_l0_l0_l1          0x008500         Code  Gb  float.o [4]
+?fcastf32u32_l0_l0        0x0087c7         Code  Gb  float.o [4]
+?fcastu32f32_l0_l0        0x008777         Code  Gb  float.o [4]
+?fcmplt32_c_l0_0x         0x008721         Code  Gb  float.o [4]
+?fcmplt32_c_l0_dc32       0x00871c         Code  Gb  float.o [4]
+?fdiv32_l0_l0_l1          0x00866e         Code  Gb  float.o [4]
+?fmul32_l0_l0_dc32        0x0085ce         Code  Gb  float.o [4]
+?fmul32_l0_l0_l1          0x0085d3         Code  Gb  float.o [4]
+?fsub32_l0_l0_l1          0x0084fa         Code  Gb  float.o [4]
+?l0                       0x000000         Data  Gb  vregs.o [4]
+?l1                       0x000004         Data  Gb  vregs.o [4]
+?l2                       0x000008         Data  Gb  vregs.o [4]
+?l3                       0x00000c         Data  Gb  vregs.o [4]
+?load32_0x_l0             0x009800         Code  Gb  long_util.o [4]
+?load32_asp_l0            0x0097f4         Code  Gb  long_util.o [4]
+?load32_dbsp_l0           0x0097ef         Code  Gb  long_util.o [4]
+?load32_l0_0x             0x0097cb         Code  Gb  long_util.o [4]
+?load32_l0_asp            0x0097c0         Code  Gb  long_util.o [4]
+?load32_l0_dbsp           0x0097bb         Code  Gb  long_util.o [4]
+?load32_l0_xsp            0x0097c2         Code  Gb  long_util.o [4]
+?load32_l1_0x             0x0097d7         Code  Gb  long_util.o [4]
+?load32_l2_0x             0x0097e3         Code  Gb  long_util.o [4]
+?load32_xsp_l0            0x0097f6         Code  Gb  long_util.o [4]
+?mov_e0_e1                0x0094ce         Code  Gb  vreg_util.o [4]
+?mov_e0_e2                0x0094db         Code  Gb  vreg_util.o [4]
+?mov_e0_e3                0x0094e8         Code  Gb  vreg_util.o [4]
+?mov_e1_e0                0x0094f5         Code  Gb  vreg_util.o [4]
+?mov_e1_e2                0x009502         Code  Gb  vreg_util.o [4]
+?mov_e2_e0                0x00950f         Code  Gb  vreg_util.o [4]
+?mov_e3_e0                0x00951c         Code  Gb  vreg_util.o [4]
+?mov_l0_l1                0x0094cb         Code  Gb  vreg_util.o [4]
+?mov_l0_l2                0x0094d8         Code  Gb  vreg_util.o [4]
+?mov_l0_l3                0x0094e5         Code  Gb  vreg_util.o [4]
+?mov_l1_l0                0x0094f2         Code  Gb  vreg_util.o [4]
+?mov_l1_l2                0x0094ff         Code  Gb  vreg_util.o [4]
+?mov_l2_l0                0x00950c         Code  Gb  vreg_util.o [4]
+?mov_l3_l0                0x009519         Code  Gb  vreg_util.o [4]
+?mov_w0_w1                0x00949a         Code  Gb  vreg_util.o [4]
+?mov_w0_w5                0x0094a1         Code  Gb  vreg_util.o [4]
+?mov_w1_w3                0x0094d1         Code  Gb  vreg_util.o [4]
+?mov_w1_w5                0x0094de         Code  Gb  vreg_util.o [4]
+?mov_w1_w7                0x0094eb         Code  Gb  vreg_util.o [4]
+?mov_w2_w0                0x0094a8         Code  Gb  vreg_util.o [4]
+?mov_w2_w1                0x0094af         Code  Gb  vreg_util.o [4]
+?mov_w3_w1                0x0094f8         Code  Gb  vreg_util.o [4]
+?mov_w3_w5                0x009505         Code  Gb  vreg_util.o [4]
+?mov_w4_w0                0x0094b6         Code  Gb  vreg_util.o [4]
+?mov_w4_w1                0x0094bd         Code  Gb  vreg_util.o [4]
+?mov_w5_w0                0x0094c4         Code  Gb  vreg_util.o [4]
+?mov_w5_w1                0x009512         Code  Gb  vreg_util.o [4]
+?mov_w7_w1                0x00951f         Code  Gb  vreg_util.o [4]
+?move1616_v_x_y_a         0x009c33         Code  Gb  move.o [4]
+?mul16_x_x_w0             0x009860         Code  Gb  short.o [4]
+?mul32_l0_l0_0x           0x0090ed         Code  Gb  long.o [4]
+?mul32_l0_l0_dl           0x0090ea         Code  Gb  long.o [4]
+?mul32_l0_l0_l1           0x0090f6         Code  Gb  long.o [4]
+?neg32_l0_l0              0x0090bf         Code  Gb  long.o [4]
+?pop_l1                   0x00945f         Code  Gb  vreg_util.o [4]
+?pop_l2                   0x00946a         Code  Gb  vreg_util.o [4]
+?pop_l3                   0x009475         Code  Gb  vreg_util.o [4]
+?pop_w4                   0x00941d         Code  Gb  vreg_util.o [4]
+?pop_w6                   0x009424         Code  Gb  vreg_util.o [4]
+?push_l0                  0x009433         Code  Gb  vreg_util.o [4]
+?push_l2                  0x009438         Code  Gb  vreg_util.o [4]
+?push_l3                  0x00943d         Code  Gb  vreg_util.o [4]
+?push_w0                  0x0093f1         Code  Gb  vreg_util.o [4]
+?push_w1                  0x0093f6         Code  Gb  vreg_util.o [4]
+?push_w4                  0x0093fb         Code  Gb  vreg_util.o [4]
+?push_w5                  0x009400         Code  Gb  vreg_util.o [4]
+?push_w6                  0x009405         Code  Gb  vreg_util.o [4]
+?sdiv16_x_x_y             0x00987e         Code  Gb  short.o [4]
+?sdiv32_l0_l0_dl          0x0091ee         Code  Gb  long.o [4]
+?sdiv32_l0_l0_l1          0x0091f1         Code  Gb  long.o [4]
+?sext32_l0_a              0x00926e         Code  Gb  long.o [4]
+?sext32_l0_x              0x009263         Code  Gb  long.o [4]
+?sll32_0x_0x_a            0x009255         Code  Gb  long.o [4]
+?sll32_l0_l0_a            0x009252         Code  Gb  long.o [4]
+?smod16_y_x_y             0x009897         Code  Gb  short.o [4]
+?smod32_l1_l0_l1          0x0091f1         Code  Gb  long.o [4]
+?srl16_x_x_4              0x0098a7         Code  Gb  short.o [4]
+?sub32_l0_l0_0x           0x0090d2         Code  Gb  long.o [4]
+?sub32_l0_l0_l1           0x0090cf         Code  Gb  long.o [4]
+?switch8vlt_0x_a_0x       0x009c4c         Code  Gb  switch.o [4]
+?udiv32_l0_dl_l1          0x009179         Code  Gb  long.o [4]
+?udiv32_l0_l0_dl          0x00917e         Code  Gb  long.o [4]
+?udiv32_l0_l0_l1          0x009181         Code  Gb  long.o [4]
+?umod32_l1_l0_dl          0x009174         Code  Gb  long.o [4]
+?umod32_l1_l0_l1          0x009181         Code  Gb  long.o [4]
+?w0                       0x000000         Data  Gb  vregs.o [4]
+?w1                       0x000002         Data  Gb  vregs.o [4]
+?w2                       0x000004         Data  Gb  vregs.o [4]
+?w3                       0x000006         Data  Gb  vregs.o [4]
+?w4                       0x000008         Data  Gb  vregs.o [4]
+?w5                       0x00000a         Data  Gb  vregs.o [4]
+?w6                       0x00000c         Data  Gb  vregs.o [4]
+?w7                       0x00000e         Data  Gb  vregs.o [4]
+CLK_GetClockFreq          0x00967e   0x7b  Code  Gb  stm8s_clk.o [1]
+CLK_HSIPrescalerConfig    0x009930   0x3d  Code  Gb  stm8s_clk.o [1]
+CSTACK$$Base              0x000300          --   Gb  - Linker created -
+CSTACK$$Limit             0x000400          --   Gb  - Linker created -
+FindFactors               0x009526   0xad  Code  Gb  main.o [1]
+HSIDivFactor              0x009cfc    0x4  Data  Gb  stm8s_clk.o [1]
+INTVEC$$Base              0x008000          --   Gb  - Linker created -
+INTVEC$$Limit             0x008080          --   Gb  - Linker created -
+LoadInt                   0x0098ef   0x41  Code  Lc  xprintflarge_nomb.o [4]
+Region$$Table$$Base     0x00000000          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00000000          --   Gb  - Linker created -
+UART1_Cmd                 0x009c18    0xe  Code  Gb  stm8s_uart1.o [1]
+UART1_DeInit              0x009a97   0x2d  Code  Gb  stm8s_uart1.o [1]
+UART1_GetFlagStatus       0x0095d3   0xab  Code  Gb  stm8s_uart1.o [1]
+UART1_Init                0x008e99  0x226  Code  Gb  stm8s_uart1.o [1]
+UART1_SendData8           0x009d10    0x4  Code  Gb  stm8s_uart1.o [1]
+_GenldLargeNoMb           0x008901  0x353  Code  Lc  xprintflarge_nomb.o [4]
+_LdtobLargeNoMb           0x008c54  0x245  Code  Lc  xprintflarge_nomb.o [4]
+_LitobLargeNoMb           0x00927b  0x176  Code  Lc  xprintflarge_nomb.o [4]
+_PrintfLargeNoMb          0x008080  0x45d  Code  Gb  xprintflarge_nomb.o [4]
+_Prout                    0x009b72   0x1b  Code  Gb  xprout.o [4]
+_PutcharLargeNoMb         0x009a3b   0x2f  Code  Lc  xprintflarge_nomb.o [4]
+_PutcharsLargeNoMb        0x0099d8   0x33  Code  Lc  xprintflarge_nomb.o [4]
+__DebugBreak              0x009d24    0x1  Code  Gb  __dbg_break.o [3]
+__exit                    0x009be3   0x14  Code  Gb  __dbg_xxexit.o [3]
+__iar_Dunscale            0x00980e         Code  Gb  float_libsup.o [4]
+__iar_Memchr              0x009b15   0x21  Code  Gb  memchr.o [4]
+__iar_Strchr              0x009ba6   0x15  Code  Gb  strchr.o [4]
+__iar_data_init2          0x009bbb   0x14  Code  Gb  init.o [4]
+__iar_program_start       0x009bf7         Code  Gb  cstartup.o [4]
+__iar_unhandled_exception
+                          0x009d1d         Code  Gb  unhandled_exception.o [4]
+__intvec                  0x008000         Data  Gb  interrupt.o [4]
+__low_level_init          0x009d17    0x3  Code  Gb  low_level_init.o [4]
+_exit                     0x009cf7         Code  Gb  cexit.o [4]
+assert_failed             0x009d22    0x2  Code  Gb  main.o [1]
+div                       0x009a0b   0x30  Code  Gb  div.o [4]
+exit                      0x009d1a    0x3  Code  Gb  exit.o [4]
+main                      0x009a6a   0x2d  Code  Gb  main.o [1]
+memcpy                    0x009b36   0x1f  Code  Gb  memcpy.o [4]
+pad                       0x0099a3   0x35  Code  Lc  xprintflarge_nomb.o [4]
+printf                    0x009b55   0x1d  Code  Gb  printf.o [4]
+putchar                   0x009b8d   0x19  Code  Gb  main.o [1]
+root1                     0x009ac4   0x2c  Code  Gb  main.o [1]
+scale                     0x0098ac   0x43  Code  Lc  xprintflarge_nomb.o [4]
+strlen                    0x009c26    0xd  Code  Gb  strlen.o [4]
+
+
+[1] = C:\Users\Admin\Desktop\Projects\stm8s\Find Factors Improved\Debug\Obj
+[2] = command line
+[3] = dbgstm8smd.a
+[4] = dlstm8smn.a
+
+  7 042 bytes of readonly  code memory
+    419 bytes of readonly  data memory
+    272 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
