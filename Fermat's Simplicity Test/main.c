@@ -15,7 +15,7 @@
 #define PUTCHAR_PROTOTYPE int putchar (int c)
 #define GETCHAR_PROTOTYPE int getchar (void)
 #endif /* _RAISONANCE_ */
-bool IsPrime(int16_t p, int16_t MaxTests);
+bool IsPrime(int16_t Number, int16_t MaxTests);
 uint16_t int_sqrt(uint16_t a);
 int main( void )
 {
@@ -35,14 +35,14 @@ int main( void )
   }
 }
 
-bool IsPrime(int16_t p, int16_t MaxTests)
+bool IsPrime(int16_t Number, int16_t MaxTests)
 {
   int16_t n;
   for(uint8_t i = 1; i <= MaxTests; i++)
   {
-    n = 1 + rand() % p;
-    uint32_t k = pow(n, p - 1);
-    if((k % p) == 1)
+    n = 1 + rand() % Number;
+    uint32_t k = (uint32_t)pow(n, Number - 1);
+    if((k % Number) == 1)
     {
       return true;
     }
