@@ -1,0 +1,5364 @@
+[
+  {
+    "ID": "c:@F@ADC1_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "52",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_Init(int, int, int, int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "88",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_Cmd(int)",
+    "location": {
+      "column": "6",
+      "line": "126",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_ScanModeCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_ScanModeCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "146",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_ScanModeCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_DataBufferCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_DataBufferCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "166",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_DataBufferCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_ITConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "190",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_PrescalerConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_PrescalerConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "214",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_PrescalerConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_SchmittTriggerConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_SchmittTriggerConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "233",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_SchmittTriggerConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_ConversionConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_ConversionConfig(int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "286",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_ConversionConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_ExternalTriggerConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_ExternalTriggerConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "325",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_ExternalTriggerConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_StartConversion",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_StartConversion(void)",
+    "location": {
+      "column": "6",
+      "line": "358",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_StartConversion",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_GetConversionValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int ADC1_GetConversionValue(void)",
+    "location": {
+      "column": "10",
+      "line": "370",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_GetConversionValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_AWDChannelConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_AWDChannelConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "405",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_AWDChannelConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_SetHighThreshold",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_SetHighThreshold(int)",
+    "location": {
+      "column": "6",
+      "line": "441",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_SetHighThreshold",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_SetLowThreshold",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_SetLowThreshold(int)",
+    "location": {
+      "column": "6",
+      "line": "453",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_SetLowThreshold",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_GetBufferValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int ADC1_GetBufferValue(int)",
+    "location": {
+      "column": "10",
+      "line": "466",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_GetBufferValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_GetAWDChannelStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int ADC1_GetAWDChannelStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "502",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_GetAWDChannelStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int ADC1_GetFlagStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "527",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_ClearFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "567",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int ADC1_GetITStatus(int)",
+    "location": {
+      "column": "10",
+      "line": "616",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ADC1_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ADC1_ClearITPendingBit(int)",
+    "location": {
+      "column": "6",
+      "line": "662",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_adc1.c"
+    },
+    "name": "ADC1_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@uint8_t",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "uint8_t",
+    "location": {
+      "column": "7",
+      "line": "48",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "uint8_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@uint8_t",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "uint8_t",
+    "location": {
+      "column": "7",
+      "line": "49",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "uint8_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "72",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_FastHaltWakeUpCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_FastHaltWakeUpCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "99",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_FastHaltWakeUpCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_HSECmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_HSECmd(int)",
+    "location": {
+      "column": "6",
+      "line": "121",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_HSECmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_HSICmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_HSICmd(int)",
+    "location": {
+      "column": "6",
+      "line": "143",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_HSICmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_LSICmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_LSICmd(int)",
+    "location": {
+      "column": "6",
+      "line": "166",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_LSICmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_CCOCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_CCOCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "189",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_CCOCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_ClockSwitchCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_ClockSwitchCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "213",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_ClockSwitchCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_SlowActiveHaltWakeUpCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_SlowActiveHaltWakeUpCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "238",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_SlowActiveHaltWakeUpCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_PeripheralClockConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_PeripheralClockConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "263",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_PeripheralClockConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_ClockSwitchConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CLK_ClockSwitchConfig(int, int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "309",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_ClockSwitchConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_HSIPrescalerConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_HSIPrescalerConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "415",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_HSIPrescalerConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_CCOConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_CCOConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "436",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_CCOConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_ITConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "459",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_SYSCLKConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_SYSCLKConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "500",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_SYSCLKConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_SWIMConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_SWIMConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "523",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_SWIMConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_ClockSecuritySystemEnable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_ClockSecuritySystemEnable(void)",
+    "location": {
+      "column": "6",
+      "line": "547",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_ClockSecuritySystemEnable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_GetSYSCLKSource",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CLK_GetSYSCLKSource(void)",
+    "location": {
+      "column": "20",
+      "line": "559",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_GetSYSCLKSource",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_GetClockFreq",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CLK_GetClockFreq(void)",
+    "location": {
+      "column": "10",
+      "line": "569",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_GetClockFreq",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_AdjustHSICalibrationValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_AdjustHSICalibrationValue(int)",
+    "location": {
+      "column": "6",
+      "line": "604",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_AdjustHSICalibrationValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_SYSCLKEmergencyClear",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_SYSCLKEmergencyClear(void)",
+    "location": {
+      "column": "6",
+      "line": "622",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_SYSCLKEmergencyClear",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CLK_GetFlagStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "634",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CLK_GetITStatus(int)",
+    "location": {
+      "column": "10",
+      "line": "687",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CLK_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CLK_ClearITPendingBit(int)",
+    "location": {
+      "column": "6",
+      "line": "729",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_clk.c"
+    },
+    "name": "CLK_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@uint8_t",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "uint8_t",
+    "location": {
+      "column": "7",
+      "line": "49",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_awu.c"
+    },
+    "name": "uint8_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@uint8_t",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "uint8_t",
+    "location": {
+      "column": "7",
+      "line": "55",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_awu.c"
+    },
+    "name": "uint8_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AWU_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void AWU_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "73",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_awu.c"
+    },
+    "name": "AWU_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AWU_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void AWU_Init(int)",
+    "location": {
+      "column": "6",
+      "line": "88",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_awu.c"
+    },
+    "name": "AWU_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AWU_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void AWU_Cmd(int)",
+    "location": {
+      "column": "6",
+      "line": "112",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_awu.c"
+    },
+    "name": "AWU_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AWU_LSICalibrationConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void AWU_LSICalibrationConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "139",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_awu.c"
+    },
+    "name": "AWU_LSICalibrationConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AWU_IdleModeEnable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void AWU_IdleModeEnable(void)",
+    "location": {
+      "column": "6",
+      "line": "168",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_awu.c"
+    },
+    "name": "AWU_IdleModeEnable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AWU_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int AWU_GetFlagStatus(void)",
+    "location": {
+      "column": "12",
+      "line": "183",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_awu.c"
+    },
+    "name": "AWU_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BEEP_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void BEEP_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "54",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_beep.c"
+    },
+    "name": "BEEP_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BEEP_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void BEEP_Init(int)",
+    "location": {
+      "column": "6",
+      "line": "67",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_beep.c"
+    },
+    "name": "BEEP_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BEEP_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void BEEP_Cmd(int)",
+    "location": {
+      "column": "6",
+      "line": "91",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_beep.c"
+    },
+    "name": "BEEP_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BEEP_LSICalibrationConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void BEEP_LSICalibrationConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "118",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_beep.c"
+    },
+    "name": "BEEP_LSICalibrationConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.c@3165@macro@FLASH_CLEAR_BYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_CLEAR_BYTE",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_CLEAR_BYTE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.c@3210@macro@FLASH_SET_BYTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLASH_SET_BYTE",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_SET_BYTE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_flash.c@3255@macro@OPERATION_TIMEOUT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "OPERATION_TIMEOUT",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "OPERATION_TIMEOUT",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_Unlock",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_Unlock(int)",
+    "location": {
+      "column": "6",
+      "line": "87",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_Unlock",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_Lock",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_Lock(int)",
+    "location": {
+      "column": "6",
+      "line": "112",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_Lock",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "126",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_ITConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "142",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_EraseByte",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_EraseByte(int)",
+    "location": {
+      "column": "6",
+      "line": "164",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_EraseByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ProgramByte",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_ProgramByte(int, int)",
+    "location": {
+      "column": "6",
+      "line": "181",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_ProgramByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ReadByte",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int FLASH_ReadByte(int)",
+    "location": {
+      "column": "9",
+      "line": "195",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_ReadByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ProgramWord",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_ProgramWord(int, int)",
+    "location": {
+      "column": "6",
+      "line": "212",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_ProgramWord",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ProgramOptionByte",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_ProgramOptionByte(int, int)",
+    "location": {
+      "column": "6",
+      "line": "237",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_ProgramOptionByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_EraseOptionByte",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_EraseOptionByte(int)",
+    "location": {
+      "column": "6",
+      "line": "270",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_EraseOptionByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_ReadOptionByte",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int FLASH_ReadOptionByte(int)",
+    "location": {
+      "column": "10",
+      "line": "303",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_ReadOptionByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_SetLowPowerMode",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_SetLowPowerMode(int)",
+    "location": {
+      "column": "6",
+      "line": "340",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_SetLowPowerMode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_SetProgrammingTime",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FLASH_SetProgrammingTime(int)",
+    "location": {
+      "column": "6",
+      "line": "358",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_SetProgrammingTime",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetLowPowerMode",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int FLASH_GetLowPowerMode(void)",
+    "location": {
+      "column": "22",
+      "line": "372",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_GetLowPowerMode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetProgrammingTime",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int FLASH_GetProgrammingTime(void)",
+    "location": {
+      "column": "27",
+      "line": "382",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_GetProgrammingTime",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetBootSize",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int FLASH_GetBootSize(void)",
+    "location": {
+      "column": "10",
+      "line": "392",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_GetBootSize",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@FLASH_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int FLASH_GetFlagStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "417",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "FLASH_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IN_RAM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int IN_RAM(int (*)(int))",
+    "location": {
+      "column": "1",
+      "line": "549",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "IN_RAM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IN_RAM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int IN_RAM(void (*)(int, int))",
+    "location": {
+      "column": "1",
+      "line": "598",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "IN_RAM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IN_RAM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int IN_RAM(void (*)(int, int, int, int *))",
+    "location": {
+      "column": "1",
+      "line": "655",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_flash.c"
+    },
+    "name": "IN_RAM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "53",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_exti.c"
+    },
+    "name": "EXTI_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetExtIntSensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_SetExtIntSensitivity(int, int)",
+    "location": {
+      "column": "6",
+      "line": "70",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_exti.c"
+    },
+    "name": "EXTI_SetExtIntSensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_SetTLISensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void EXTI_SetTLISensitivity(int)",
+    "location": {
+      "column": "6",
+      "line": "111",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_exti.c"
+    },
+    "name": "EXTI_SetTLISensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetExtIntSensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int EXTI_GetExtIntSensitivity(int)",
+    "location": {
+      "column": "26",
+      "line": "126",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_exti.c"
+    },
+    "name": "EXTI_GetExtIntSensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@EXTI_GetTLISensitivity",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int EXTI_GetTLISensitivity(void)",
+    "location": {
+      "column": "29",
+      "line": "162",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_exti.c"
+    },
+    "name": "EXTI_GetTLISensitivity",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_DeInit(int *)",
+    "location": {
+      "column": "6",
+      "line": "53",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_gpio.c"
+    },
+    "name": "GPIO_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_Init(int *, int, int)",
+    "location": {
+      "column": "6",
+      "line": "71",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_gpio.c"
+    },
+    "name": "GPIO_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_Write",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_Write(int *, int)",
+    "location": {
+      "column": "6",
+      "line": "141",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_gpio.c"
+    },
+    "name": "GPIO_Write",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_WriteHigh",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_WriteHigh(int *, int)",
+    "location": {
+      "column": "6",
+      "line": "154",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_gpio.c"
+    },
+    "name": "GPIO_WriteHigh",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_WriteLow",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_WriteLow(int *, int)",
+    "location": {
+      "column": "6",
+      "line": "167",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_gpio.c"
+    },
+    "name": "GPIO_WriteLow",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_WriteReverse",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_WriteReverse(int *, int)",
+    "location": {
+      "column": "6",
+      "line": "180",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_gpio.c"
+    },
+    "name": "GPIO_WriteReverse",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadOutputData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int GPIO_ReadOutputData(int *)",
+    "location": {
+      "column": "9",
+      "line": "191",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_gpio.c"
+    },
+    "name": "GPIO_ReadOutputData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadInputData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int GPIO_ReadInputData(int *)",
+    "location": {
+      "column": "9",
+      "line": "202",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_gpio.c"
+    },
+    "name": "GPIO_ReadInputData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ReadInputPin",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int GPIO_ReadInputPin(int *, int)",
+    "location": {
+      "column": "11",
+      "line": "213",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_gpio.c"
+    },
+    "name": "GPIO_ReadInputPin",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIO_ExternalPullUpConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIO_ExternalPullUpConfig(int *, int, int)",
+    "location": {
+      "column": "6",
+      "line": "225",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_gpio.c"
+    },
+    "name": "GPIO_ExternalPullUpConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.c@1484@macro@REGISTER_Mask",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "REGISTER_Mask",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "REGISTER_Mask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.c@1540@macro@REGISTER_SR1_Index",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "REGISTER_SR1_Index",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "REGISTER_SR1_Index",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.c@1596@macro@REGISTER_SR2_Index",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "REGISTER_SR2_Index",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "REGISTER_SR2_Index",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.c@1685@macro@ITEN_Mask",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ITEN_Mask",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "ITEN_Mask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_i2c.c@1762@macro@FLAG_Mask",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FLAG_Mask",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "FLAG_Mask",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "67",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_Init(int, int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "96",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_Cmd(int)",
+    "location": {
+      "column": "6",
+      "line": "202",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_GeneralCallCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_GeneralCallCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "225",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_GeneralCallCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_GenerateSTART",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_GenerateSTART(int)",
+    "location": {
+      "column": "6",
+      "line": "250",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_GenerateSTART",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_GenerateSTOP",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_GenerateSTOP(int)",
+    "location": {
+      "column": "6",
+      "line": "273",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_GenerateSTOP",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_SoftwareResetCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_SoftwareResetCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "296",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_SoftwareResetCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_StretchClockCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_StretchClockCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "320",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_StretchClockCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_AcknowledgeConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_AcknowledgeConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "345",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_AcknowledgeConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_ITConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "381",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_FastModeDutyCycleConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_FastModeDutyCycleConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "405",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_FastModeDutyCycleConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_ReceiveData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_ReceiveData(void)",
+    "location": {
+      "column": "9",
+      "line": "427",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_ReceiveData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_Send7bitAddress",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_Send7bitAddress(int, int)",
+    "location": {
+      "column": "6",
+      "line": "440",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_Send7bitAddress",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_SendData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_SendData(int)",
+    "location": {
+      "column": "6",
+      "line": "458",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_SendData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_CheckEvent",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_CheckEvent(int)",
+    "location": {
+      "column": "13",
+      "line": "578",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_CheckEvent",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_GetLastEvent",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_GetLastEvent(void)",
+    "location": {
+      "column": "19",
+      "line": "628",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_GetLastEvent",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_GetFlagStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "679",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_ClearFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "759",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int I2C_GetITStatus(int)",
+    "location": {
+      "column": "10",
+      "line": "791",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@I2C_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void I2C_ClearITPendingBit(int)",
+    "location": {
+      "column": "6",
+      "line": "871",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_i2c.c"
+    },
+    "name": "I2C_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetCPUCC",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int ITC_GetCPUCC(void)",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_GetCPUCC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ITC_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "80",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetSoftIntStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int ITC_GetSoftIntStatus(void)",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_GetSoftIntStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_GetSoftwarePriority",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int ITC_GetSoftwarePriority(int)",
+    "location": {
+      "column": "27",
+      "line": "107",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_GetSoftwarePriority",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ITC_SetSoftwarePriority",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ITC_SetSoftwarePriority(int, int)",
+    "location": {
+      "column": "6",
+      "line": "220",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_itc.c"
+    },
+    "name": "ITC_SetSoftwarePriority",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_WriteAccessCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void IWDG_WriteAccessCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "48",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_iwdg.c"
+    },
+    "name": "IWDG_WriteAccessCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_SetPrescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void IWDG_SetPrescaler(int)",
+    "location": {
+      "column": "6",
+      "line": "63",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_iwdg.c"
+    },
+    "name": "IWDG_SetPrescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_SetReload",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void IWDG_SetReload(int)",
+    "location": {
+      "column": "6",
+      "line": "78",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_iwdg.c"
+    },
+    "name": "IWDG_SetReload",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_ReloadCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void IWDG_ReloadCounter(void)",
+    "location": {
+      "column": "6",
+      "line": "89",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_iwdg.c"
+    },
+    "name": "IWDG_ReloadCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@IWDG_Enable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void IWDG_Enable(void)",
+    "location": {
+      "column": "6",
+      "line": "99",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_iwdg.c"
+    },
+    "name": "IWDG_Enable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@RST_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int RST_GetFlagStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "54",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_rst.c"
+    },
+    "name": "RST_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@RST_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void RST_ClearFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "69",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_rst.c"
+    },
+    "name": "RST_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "50",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_Init(int, int, int, int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "78",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_Cmd(int)",
+    "location": {
+      "column": "6",
+      "line": "119",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_ITConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "141",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_SendData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_SendData(int)",
+    "location": {
+      "column": "6",
+      "line": "166",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_SendData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_ReceiveData",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int SPI_ReceiveData(void)",
+    "location": {
+      "column": "9",
+      "line": "176",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_ReceiveData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_NSSInternalSoftwareCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_NSSInternalSoftwareCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "187",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_NSSInternalSoftwareCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_TransmitCRC",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_TransmitCRC(void)",
+    "location": {
+      "column": "6",
+      "line": "207",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_TransmitCRC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_CalculateCRCCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_CalculateCRCCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "218",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_CalculateCRCCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_GetCRC",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int SPI_GetCRC(int)",
+    "location": {
+      "column": "9",
+      "line": "238",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_GetCRC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_ResetCRC",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_ResetCRC(void)",
+    "location": {
+      "column": "6",
+      "line": "263",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_ResetCRC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_GetCRCPolynomial",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int SPI_GetCRCPolynomial(void)",
+    "location": {
+      "column": "9",
+      "line": "278",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_GetCRCPolynomial",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_BiDirectionalLineConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_BiDirectionalLineConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "288",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_BiDirectionalLineConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int SPI_GetFlagStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "311",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_ClearFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "346",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int SPI_GetITStatus(int)",
+    "location": {
+      "column": "10",
+      "line": "366",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SPI_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SPI_ClearITPendingBit(int)",
+    "location": {
+      "column": "6",
+      "line": "412",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_spi.c"
+    },
+    "name": "SPI_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim1.c@F@TI1_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TI1_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "39",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TI1_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim1.c@F@TI2_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TI2_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "41",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TI2_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim1.c@F@TI3_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TI3_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "43",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TI3_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim1.c@F@TI4_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TI4_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "45",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TI4_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "58",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_TimeBaseInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_TimeBaseInit(int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "111",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_TimeBaseInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC1Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC1Init(int, int, int, int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "154",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC1Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC2Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC2Init(int, int, int, int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "217",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC2Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC3Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC3Init(int, int, int, int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "281",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC3Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC4Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC4Init(int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "338",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC4Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_BDTRConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_BDTRConfig(int, int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "388",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_BDTRConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ICInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ICInit(int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "423",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ICInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_PWMIConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_PWMIConfig(int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "488",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_PWMIConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_Cmd(int)",
+    "location": {
+      "column": "6",
+      "line": "561",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_CtrlPWMOutputs",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_CtrlPWMOutputs(int)",
+    "location": {
+      "column": "6",
+      "line": "583",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_CtrlPWMOutputs",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ITConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "617",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_InternalClockConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_InternalClockConfig(void)",
+    "location": {
+      "column": "6",
+      "line": "640",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_InternalClockConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ETRClockMode1Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ETRClockMode1Config(int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "662",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ETRClockMode1Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ETRClockMode2Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ETRClockMode2Config(int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "694",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ETRClockMode2Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ETRConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ETRConfig(int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "725",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ETRConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_TIxExternalClockConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_TIxExternalClockConfig(int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "751",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_TIxExternalClockConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SelectInputTrigger",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SelectInputTrigger(int)",
+    "location": {
+      "column": "6",
+      "line": "787",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SelectInputTrigger",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_UpdateDisableConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_UpdateDisableConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "803",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_UpdateDisableConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_UpdateRequestConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_UpdateRequestConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "827",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_UpdateRequestConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SelectHallSensor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SelectHallSensor(int)",
+    "location": {
+      "column": "6",
+      "line": "849",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SelectHallSensor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SelectOnePulseMode",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SelectOnePulseMode(int)",
+    "location": {
+      "column": "6",
+      "line": "873",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SelectOnePulseMode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SelectOutputTrigger",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SelectOutputTrigger(int)",
+    "location": {
+      "column": "6",
+      "line": "903",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SelectOutputTrigger",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SelectSlaveMode",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SelectSlaveMode(int)",
+    "location": {
+      "column": "6",
+      "line": "923",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SelectSlaveMode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SelectMasterSlaveMode",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SelectMasterSlaveMode(int)",
+    "location": {
+      "column": "6",
+      "line": "939",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SelectMasterSlaveMode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_EncoderInterfaceConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_EncoderInterfaceConfig(int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "975",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_EncoderInterfaceConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_PrescalerConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_PrescalerConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "1023",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_PrescalerConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_CounterModeConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_CounterModeConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1048",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_CounterModeConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ForcedOC1Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ForcedOC1Config(int)",
+    "location": {
+      "column": "6",
+      "line": "1067",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ForcedOC1Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ForcedOC2Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ForcedOC2Config(int)",
+    "location": {
+      "column": "6",
+      "line": "1085",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ForcedOC2Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ForcedOC3Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ForcedOC3Config(int)",
+    "location": {
+      "column": "6",
+      "line": "1104",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ForcedOC3Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ForcedOC4Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ForcedOC4Config(int)",
+    "location": {
+      "column": "6",
+      "line": "1123",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ForcedOC4Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ARRPreloadConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ARRPreloadConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1139",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ARRPreloadConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SelectCOM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SelectCOM(int)",
+    "location": {
+      "column": "6",
+      "line": "1161",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SelectCOM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_CCPreloadControl",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_CCPreloadControl(int)",
+    "location": {
+      "column": "6",
+      "line": "1183",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_CCPreloadControl",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC1PreloadConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC1PreloadConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1205",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC1PreloadConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC2PreloadConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC2PreloadConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1227",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC2PreloadConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC3PreloadConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC3PreloadConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1249",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC3PreloadConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC4PreloadConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC4PreloadConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1271",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC4PreloadConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC1FastConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC1FastConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1293",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC1FastConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC2FastConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC2FastConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1315",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC2FastConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC3FastConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC3FastConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1337",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC3FastConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC4FastConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC4FastConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1359",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC4FastConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_GenerateEvent",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_GenerateEvent(int)",
+    "location": {
+      "column": "6",
+      "line": "1389",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_GenerateEvent",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC1PolarityConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC1PolarityConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1406",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC1PolarityConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC1NPolarityConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC1NPolarityConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1430",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC1NPolarityConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC2PolarityConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC2PolarityConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1454",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC2PolarityConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC2NPolarityConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC2NPolarityConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1478",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC2NPolarityConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC3PolarityConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC3PolarityConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1502",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC3PolarityConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC3NPolarityConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC3NPolarityConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1527",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC3NPolarityConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_OC4PolarityConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_OC4PolarityConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "1551",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_OC4PolarityConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_CCxCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_CCxCmd(int, int)",
+    "location": {
+      "column": "6",
+      "line": "1579",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_CCxCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_CCxNCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_CCxNCmd(int, int)",
+    "location": {
+      "column": "6",
+      "line": "1647",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_CCxNCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SelectOCxM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SelectOCxM(int, int)",
+    "location": {
+      "column": "6",
+      "line": "1712",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SelectOCxM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SetCounter(int)",
+    "location": {
+      "column": "6",
+      "line": "1762",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SetAutoreload",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SetAutoreload(int)",
+    "location": {
+      "column": "6",
+      "line": "1775",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SetAutoreload",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SetCompare1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SetCompare1(int)",
+    "location": {
+      "column": "6",
+      "line": "1788",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SetCompare1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SetCompare2",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SetCompare2(int)",
+    "location": {
+      "column": "6",
+      "line": "1801",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SetCompare2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SetCompare3",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SetCompare3(int)",
+    "location": {
+      "column": "6",
+      "line": "1814",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SetCompare3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SetCompare4",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SetCompare4(int)",
+    "location": {
+      "column": "6",
+      "line": "1827",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SetCompare4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SetIC1Prescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SetIC1Prescaler(int)",
+    "location": {
+      "column": "6",
+      "line": "1844",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SetIC1Prescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SetIC2Prescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SetIC2Prescaler(int)",
+    "location": {
+      "column": "6",
+      "line": "1864",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SetIC2Prescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SetIC3Prescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SetIC3Prescaler(int)",
+    "location": {
+      "column": "6",
+      "line": "1885",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SetIC3Prescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_SetIC4Prescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_SetIC4Prescaler(int)",
+    "location": {
+      "column": "6",
+      "line": "1906",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_SetIC4Prescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_GetCapture1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM1_GetCapture1(void)",
+    "location": {
+      "column": "10",
+      "line": "1922",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_GetCapture1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_GetCapture2",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM1_GetCapture2(void)",
+    "location": {
+      "column": "10",
+      "line": "1943",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_GetCapture2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_GetCapture3",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM1_GetCapture3(void)",
+    "location": {
+      "column": "10",
+      "line": "1964",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_GetCapture3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_GetCapture4",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM1_GetCapture4(void)",
+    "location": {
+      "column": "10",
+      "line": "1984",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_GetCapture4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_GetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM1_GetCounter(void)",
+    "location": {
+      "column": "10",
+      "line": "2004",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_GetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_GetPrescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM1_GetPrescaler(void)",
+    "location": {
+      "column": "10",
+      "line": "2019",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_GetPrescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM1_GetFlagStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "2047",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ClearFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "2087",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM1_GetITStatus(int)",
+    "location": {
+      "column": "10",
+      "line": "2112",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM1_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM1_ClearITPendingBit(int)",
+    "location": {
+      "column": "6",
+      "line": "2149",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TIM1_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim1.c@F@TI1_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TI1_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "2174",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TI1_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim1.c@F@TI2_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TI2_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "2215",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TI2_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim1.c@F@TI3_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TI3_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "2254",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TI3_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim1.c@F@TI4_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TI4_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "2294",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim1.c"
+    },
+    "name": "TI4_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim2.c@F@TI1_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TI1_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "39",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TI1_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim2.c@F@TI2_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TI2_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "40",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TI2_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim2.c@F@TI3_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TI3_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "41",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TI3_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "52",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_TimeBaseInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_TimeBaseInit(int, int)",
+    "location": {
+      "column": "6",
+      "line": "89",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_TimeBaseInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC1Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_OC1Init(int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "108",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_OC1Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC2Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_OC2Init(int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "142",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_OC2Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC3Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_OC3Init(int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "179",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_OC3Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ICInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_ICInit(int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "212",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_ICInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_PWMIConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_PWMIConfig(int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "266",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_PWMIConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_Cmd(int)",
+    "location": {
+      "column": "6",
+      "line": "339",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_ITConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "368",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_UpdateDisableConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_UpdateDisableConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "392",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_UpdateDisableConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_UpdateRequestConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_UpdateRequestConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "416",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_UpdateRequestConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SelectOnePulseMode",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_SelectOnePulseMode(int)",
+    "location": {
+      "column": "6",
+      "line": "440",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_SelectOnePulseMode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_PrescalerConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_PrescalerConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "484",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_PrescalerConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ForcedOC1Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_ForcedOC1Config(int)",
+    "location": {
+      "column": "6",
+      "line": "507",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_ForcedOC1Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ForcedOC2Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_ForcedOC2Config(int)",
+    "location": {
+      "column": "6",
+      "line": "526",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_ForcedOC2Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ForcedOC3Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_ForcedOC3Config(int)",
+    "location": {
+      "column": "6",
+      "line": "545",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_ForcedOC3Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ARRPreloadConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_ARRPreloadConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "561",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_ARRPreloadConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC1PreloadConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_OC1PreloadConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "583",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_OC1PreloadConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC2PreloadConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_OC2PreloadConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "605",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_OC2PreloadConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC3PreloadConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_OC3PreloadConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "627",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_OC3PreloadConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GenerateEvent",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_GenerateEvent(int)",
+    "location": {
+      "column": "6",
+      "line": "653",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_GenerateEvent",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC1PolarityConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_OC1PolarityConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "670",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_OC1PolarityConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC2PolarityConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_OC2PolarityConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "694",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_OC2PolarityConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_OC3PolarityConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_OC3PolarityConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "718",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_OC3PolarityConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_CCxCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_CCxCmd(int, int)",
+    "location": {
+      "column": "6",
+      "line": "745",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_CCxCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SelectOCxM",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_SelectOCxM(int, int)",
+    "location": {
+      "column": "6",
+      "line": "810",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_SelectOCxM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_SetCounter(int)",
+    "location": {
+      "column": "6",
+      "line": "851",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_SetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetAutoreload",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_SetAutoreload(int)",
+    "location": {
+      "column": "6",
+      "line": "864",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_SetAutoreload",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetCompare1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_SetCompare1(int)",
+    "location": {
+      "column": "6",
+      "line": "877",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_SetCompare1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetCompare2",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_SetCompare2(int)",
+    "location": {
+      "column": "6",
+      "line": "890",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_SetCompare2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetCompare3",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_SetCompare3(int)",
+    "location": {
+      "column": "6",
+      "line": "903",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_SetCompare3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetIC1Prescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_SetIC1Prescaler(int)",
+    "location": {
+      "column": "6",
+      "line": "920",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_SetIC1Prescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetIC2Prescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_SetIC2Prescaler(int)",
+    "location": {
+      "column": "6",
+      "line": "940",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_SetIC2Prescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_SetIC3Prescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_SetIC3Prescaler(int)",
+    "location": {
+      "column": "6",
+      "line": "960",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_SetIC3Prescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetCapture1",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM2_GetCapture1(void)",
+    "location": {
+      "column": "10",
+      "line": "975",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_GetCapture1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetCapture2",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM2_GetCapture2(void)",
+    "location": {
+      "column": "10",
+      "line": "995",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_GetCapture2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetCapture3",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM2_GetCapture3(void)",
+    "location": {
+      "column": "10",
+      "line": "1015",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_GetCapture3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM2_GetCounter(void)",
+    "location": {
+      "column": "10",
+      "line": "1035",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_GetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetPrescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM2_GetPrescaler(void)",
+    "location": {
+      "column": "24",
+      "line": "1049",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_GetPrescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM2_GetFlagStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "1068",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_ClearFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "1103",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM2_GetITStatus(int)",
+    "location": {
+      "column": "10",
+      "line": "1123",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM2_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM2_ClearITPendingBit(int)",
+    "location": {
+      "column": "6",
+      "line": "1156",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TIM2_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim2.c@F@TI1_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TI1_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "1181",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TI1_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim2.c@F@TI2_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TI2_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "1221",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TI2_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_tim2.c@F@TI3_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TI3_Config(int, int, int)",
+    "location": {
+      "column": "13",
+      "line": "1261",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim2.c"
+    },
+    "name": "TI3_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "49",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_TimeBaseInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_TimeBaseInit(int, int)",
+    "location": {
+      "column": "6",
+      "line": "65",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_TimeBaseInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_Cmd(int)",
+    "location": {
+      "column": "6",
+      "line": "81",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_ITConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "107",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_UpdateDisableConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_UpdateDisableConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "131",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_UpdateDisableConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_UpdateRequestConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_UpdateRequestConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "155",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_UpdateRequestConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_SelectOnePulseMode",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_SelectOnePulseMode(int)",
+    "location": {
+      "column": "6",
+      "line": "179",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_SelectOnePulseMode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_PrescalerConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_PrescalerConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "215",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_PrescalerConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_ARRPreloadConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_ARRPreloadConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "234",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_ARRPreloadConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_GenerateEvent",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_GenerateEvent(int)",
+    "location": {
+      "column": "6",
+      "line": "257",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_GenerateEvent",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_SetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_SetCounter(int)",
+    "location": {
+      "column": "6",
+      "line": "272",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_SetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_SetAutoreload",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_SetAutoreload(int)",
+    "location": {
+      "column": "6",
+      "line": "284",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_SetAutoreload",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_GetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM4_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "295",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_GetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_GetPrescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM4_GetPrescaler(void)",
+    "location": {
+      "column": "24",
+      "line": "306",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_GetPrescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM4_GetFlagStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "319",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_ClearFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "344",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int TIM4_GetITStatus(int)",
+    "location": {
+      "column": "10",
+      "line": "360",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIM4_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIM4_ClearITPendingBit(int)",
+    "location": {
+      "column": "6",
+      "line": "391",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_tim4.c"
+    },
+    "name": "TIM4_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_DeInit(void)",
+    "location": {
+      "column": "6",
+      "line": "53",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_Init(int, int, int, int, int, int)",
+    "location": {
+      "column": "6",
+      "line": "90",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_Cmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_Cmd(int)",
+    "location": {
+      "column": "6",
+      "line": "184",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_Cmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ITConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_ITConfig(int, int)",
+    "location": {
+      "column": "6",
+      "line": "211",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_ITConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_HalfDuplexCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_HalfDuplexCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "265",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_HalfDuplexCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_IrDAConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_IrDAConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "285",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_IrDAConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_IrDACmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_IrDACmd(int)",
+    "location": {
+      "column": "6",
+      "line": "305",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_IrDACmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_LINBreakDetectionConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_LINBreakDetectionConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "329",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_LINBreakDetectionConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_LINCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_LINCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "349",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_LINCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SmartCardCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_SmartCardCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "371",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_SmartCardCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SmartCardNACKCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_SmartCardNACKCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "394",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_SmartCardNACKCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_WakeUpConfig",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_WakeUpConfig(int)",
+    "location": {
+      "column": "6",
+      "line": "416",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_WakeUpConfig",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ReceiverWakeUpCmd",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_ReceiverWakeUpCmd(int)",
+    "location": {
+      "column": "6",
+      "line": "430",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_ReceiverWakeUpCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ReceiveData8",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int UART1_ReceiveData8(void)",
+    "location": {
+      "column": "9",
+      "line": "451",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_ReceiveData8",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ReceiveData9",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int UART1_ReceiveData9(void)",
+    "location": {
+      "column": "10",
+      "line": "461",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_ReceiveData9",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SendData8",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_SendData8(int)",
+    "location": {
+      "column": "6",
+      "line": "474",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_SendData8",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SendData9",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_SendData9(int)",
+    "location": {
+      "column": "6",
+      "line": "486",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_SendData9",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SendBreak",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_SendBreak(void)",
+    "location": {
+      "column": "6",
+      "line": "501",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_SendBreak",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SetAddress",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_SetAddress(int)",
+    "location": {
+      "column": "6",
+      "line": "511",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_SetAddress",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SetGuardTime",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_SetGuardTime(int)",
+    "location": {
+      "column": "6",
+      "line": "528",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_SetGuardTime",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_SetPrescaler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_SetPrescaler(int)",
+    "location": {
+      "column": "6",
+      "line": "556",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_SetPrescaler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_GetFlagStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int UART1_GetFlagStatus(int)",
+    "location": {
+      "column": "12",
+      "line": "568",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_GetFlagStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ClearFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_ClearFlag(int)",
+    "location": {
+      "column": "6",
+      "line": "646",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_ClearFlag",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_GetITStatus",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int UART1_GetITStatus(int)",
+    "location": {
+      "column": "10",
+      "line": "675",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_GetITStatus",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UART1_ClearITPendingBit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UART1_ClearITPendingBit(int)",
+    "location": {
+      "column": "6",
+      "line": "775",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_uart1.c"
+    },
+    "name": "UART1_ClearITPendingBit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm8s_wwdg.c@1413@macro@BIT_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BIT_MASK",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "BIT_MASK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_Init(int, int)",
+    "location": {
+      "column": "6",
+      "line": "53",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "WWDG_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SetCounter(int)",
+    "location": {
+      "column": "6",
+      "line": "69",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "WWDG_SetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_GetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int WWDG_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "WWDG_GetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SWReset",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SWReset(void)",
+    "location": {
+      "column": "6",
+      "line": "96",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "WWDG_SWReset",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetWindowValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SetWindowValue(int)",
+    "location": {
+      "column": "6",
+      "line": "108",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "WWDG_SetWindowValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@347@macro@PUTCHAR_PROTOTYPE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PUTCHAR_PROTOTYPE",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "PUTCHAR_PROTOTYPE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@394@macro@GETCHAR_PROTOTYPE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GETCHAR_PROTOTYPE",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "GETCHAR_PROTOTYPE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UseRectangleRule",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float UseRectangleRule(float, float, int)",
+    "location": {
+      "column": "7",
+      "line": "18",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "UseRectangleRule",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@f",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "float f(float)",
+    "location": {
+      "column": "7",
+      "line": "19",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "f",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@y",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "y",
+    "location": {
+      "column": "7",
+      "line": "20",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "y",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Numerator",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Numerator",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "Numerator",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Denominator",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Denominator",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "Denominator",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@R",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "R",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "R",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "24",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@f",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "float f(float)",
+    "location": {
+      "column": "7",
+      "line": "38",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "f",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UseRectangleRule",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "float UseRectangleRule(float, float, int)",
+    "location": {
+      "column": "7",
+      "line": "42",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "UseRectangleRule",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1229@F@UseRectangleRule@dx",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "dx",
+    "location": {
+      "column": "9",
+      "line": "44",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "dx",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1273@F@UseRectangleRule@TotalArea",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TotalArea",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "TotalArea",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1297@F@UseRectangleRule@x",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "x",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@int_sqrt",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int int_sqrt(int)",
+    "location": {
+      "column": "10",
+      "line": "55",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "int_sqrt",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@putchar",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int putchar(int)",
+    "location": {
+      "column": "1",
+      "line": "64",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Trapezoid Rule\\main.c"
+    },
+    "name": "putchar",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@99@macro@_STDIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STDIO",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "_STDIO",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@428@macro@NULL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NULL",
+    "location": {
+      "column": "11",
+      "line": "22",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "NULL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@2964@macro@_IOFBF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_IOFBF",
+    "location": {
+      "column": "11",
+      "line": "89",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "_IOFBF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@2993@macro@_IOLBF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_IOLBF",
+    "location": {
+      "column": "11",
+      "line": "90",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "_IOLBF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3022@macro@_IONBF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_IONBF",
+    "location": {
+      "column": "11",
+      "line": "91",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "_IONBF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3051@macro@BUFSIZ",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BUFSIZ",
+    "location": {
+      "column": "11",
+      "line": "92",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "BUFSIZ",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3105@macro@FOPEN_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FOPEN_MAX",
+    "location": {
+      "column": "13",
+      "line": "94",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "FOPEN_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3144@macro@TMP_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TMP_MAX",
+    "location": {
+      "column": "11",
+      "line": "96",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "TMP_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3175@macro@FILENAME_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "FILENAME_MAX",
+    "location": {
+      "column": "11",
+      "line": "97",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "FILENAME_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3206@macro@L_tmpnam",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "L_tmpnam",
+    "location": {
+      "column": "11",
+      "line": "98",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "L_tmpnam",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3335@macro@EOF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EOF",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "EOF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3365@macro@SEEK_SET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SEEK_SET",
+    "location": {
+      "column": "9",
+      "line": "104",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "SEEK_SET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3392@macro@SEEK_CUR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SEEK_CUR",
+    "location": {
+      "column": "9",
+      "line": "105",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "SEEK_CUR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3419@macro@SEEK_END",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SEEK_END",
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "SEEK_END",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3920@macro@__PRINTFPR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__PRINTFPR",
+    "location": {
+      "column": "11",
+      "line": "122",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__PRINTFPR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3942@macro@__SCANFPR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SCANFPR",
+    "location": {
+      "column": "11",
+      "line": "123",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__SCANFPR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__EFF_NR1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__EFF_NR1",
+    "location": {
+      "column": "1",
+      "line": "180",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__EFF_NR1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__ATTRIBUTES",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "14",
+      "line": "181",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@gets",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * gets(char *)",
+    "location": {
+      "column": "34",
+      "line": "181",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "gets",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__ATTRIBUTES",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "14",
+      "line": "182",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@perror",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void perror(const char *)",
+    "location": {
+      "column": "32",
+      "line": "182",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "perror",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__ATTRIBUTES",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "25",
+      "line": "183",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@printf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int printf(const char *, ...)",
+    "location": {
+      "column": "42",
+      "line": "183",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "printf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__ATTRIBUTES",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "14",
+      "line": "184",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@puts",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int puts(const char *)",
+    "location": {
+      "column": "31",
+      "line": "184",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "puts",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__ATTRIBUTES",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "25",
+      "line": "185",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@scanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int scanf(const char *, ...)",
+    "location": {
+      "column": "42",
+      "line": "185",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "scanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__ATTRIBUTES",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "25",
+      "line": "186",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int sprintf(char *, const char *, ...)",
+    "location": {
+      "column": "42",
+      "line": "186",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "sprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__ATTRIBUTES",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "25",
+      "line": "188",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sscanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int sscanf(const char *, const char *, ...)",
+    "location": {
+      "column": "42",
+      "line": "188",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "sscanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__ATTRIBUTES",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "25",
+      "line": "193",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vprintf(const char *, int)",
+    "location": {
+      "column": "42",
+      "line": "193",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "vprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__ATTRIBUTES",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "26",
+      "line": "202",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vsprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vsprintf(char *, const char *, int)",
+    "location": {
+      "column": "43",
+      "line": "202",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "vsprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@__ATTRIBUTES",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "__ATTRIBUTES",
+    "location": {
+      "column": "16",
+      "line": "206",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "__ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@_C_STD_END",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "_C_STD_END",
+    "location": {
+      "column": "1",
+      "line": "239",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\stdio.h"
+    },
+    "name": "_C_STD_END",
+    "origin": "system_include",
+    "scope": null
+  }
+]

@@ -16,9 +16,9 @@ int main( void )
   while(1)
   {
    GPIO_WriteHigh(GPIOB, GPIO_PIN_5);
-   Delay(1000);
+   Delay(100);
    GPIO_WriteLow(GPIOB, GPIO_PIN_5);
-   Delay(5000);
+   Delay(100);
  }
 }
 
