@@ -1,0 +1,23 @@
+stm8s_beep.pbi: \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\src\stm8s_beep.c \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_beep.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc/stm8s.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\stm8s_conf.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_adc1.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_awu.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_clk.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_exti.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_flash.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_gpio.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_i2c.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_itc.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_iwdg.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_rst.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_spi.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_tim1.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_tim2.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_tim4.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_uart1.h \
+  F:\Program\ Files\Development\Projects\stm8s\Alarm\STM8S_StdPeriph_Lib\inc\stm8s_wwdg.h \
+  F:\Program\ Files\Development\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\intrinsics.h

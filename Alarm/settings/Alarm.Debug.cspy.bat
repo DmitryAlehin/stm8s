@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\Admin\Desktop\Projects\stm8s\Alarm\settings\Alarm.Debug.general.xcl" --backend -f "C:\Users\Admin\Desktop\Projects\stm8s\Alarm\settings\Alarm.Debug.driver.xcl" 
+"F:\Program Files\Development\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\Program Files\Development\Projects\stm8s\Alarm\settings\Alarm.Debug.general.xcl" --backend -f "F:\Program Files\Development\Projects\stm8s\Alarm\settings\Alarm.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\Admin\Desktop\Projects\stm8s\Alarm\settings\Alarm.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Admin\Desktop\Projects\stm8s\Alarm\settings\Alarm.Debug.driver.xcl" 
+"F:\Program Files\Development\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "F:\Program Files\Development\Projects\stm8s\Alarm\settings\Alarm.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\Program Files\Development\Projects\stm8s\Alarm\settings\Alarm.Debug.driver.xcl" 
 
 @echo off 
 :end

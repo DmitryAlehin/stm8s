@@ -526,9 +526,9 @@
         </settings>
         <settings>
             <name>ILINK</name>
-            <archiveVersion>4</archiveVersion>
+            <archiveVersion>5</archiveVersion>
             <data>
-                <version>3</version>
+                <version>4</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>1</debug>
                 <option>
@@ -775,6 +775,22 @@
                 <option>
                     <name>IlinkLogCallGraph</name>
                     <state>0</state>
+                </option>
+                <option>
+                    <name>IlinkRawBinaryFile2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinarySymbol2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinarySegment2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinaryAlign2</name>
+                    <state></state>
                 </option>
             </data>
         </settings>
@@ -1327,9 +1343,9 @@
         </settings>
         <settings>
             <name>ILINK</name>
-            <archiveVersion>4</archiveVersion>
+            <archiveVersion>5</archiveVersion>
             <data>
-                <version>3</version>
+                <version>4</version>
                 <wantNonLocal>1</wantNonLocal>
                 <debug>0</debug>
                 <option>
@@ -1576,6 +1592,22 @@
                 <option>
                     <name>IlinkLogCallGraph</name>
                     <state>0</state>
+                </option>
+                <option>
+                    <name>IlinkRawBinaryFile2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinarySymbol2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinarySegment2</name>
+                    <state></state>
+                </option>
+                <option>
+                    <name>IlinkRawBinaryAlign2</name>
+                    <state></state>
                 </option>
             </data>
         </settings>
