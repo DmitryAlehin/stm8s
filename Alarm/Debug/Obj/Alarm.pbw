@@ -48738,90 +48738,6 @@
     "scope": null
   },
   {
-    "ID": "c:stm8s_wwdg.c@1413@macro@BIT_MASK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BIT_MASK",
-    "location": {
-      "column": "9",
-      "line": "35",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
-    },
-    "name": "BIT_MASK",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WWDG_Init(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "53",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
-    },
-    "name": "WWDG_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetCounter",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WWDG_SetCounter(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "69",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
-    },
-    "name": "WWDG_SetCounter",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_GetCounter",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint8_t WWDG_GetCounter(void)",
-    "location": {
-      "column": "9",
-      "line": "86",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
-    },
-    "name": "WWDG_GetCounter",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SWReset",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WWDG_SWReset(void)",
-    "location": {
-      "column": "6",
-      "line": "96",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
-    },
-    "name": "WWDG_SWReset",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WWDG_SetWindowValue",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void WWDG_SetWindowValue(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "108",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
-    },
-    "name": "WWDG_SetWindowValue",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:main.c@51@macro@E",
     "What": "MacroDef",
     "defdec": "Def",
@@ -48920,13 +48836,27 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@269@macro@E_set",
+    "ID": "c:main.c@267@macro@ALARM_OFF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ALARM_OFF",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "ALARM_OFF",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@306@macro@E_set",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E_set",
     "location": {
       "column": "9",
-      "line": "12",
+      "line": "13",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "E_set",
@@ -48934,13 +48864,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@306@macro@E_reset",
+    "ID": "c:main.c@343@macro@E_reset",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "E_reset",
     "location": {
       "column": "9",
-      "line": "13",
+      "line": "14",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "E_reset",
@@ -48948,13 +48878,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@344@macro@RS_set",
+    "ID": "c:main.c@381@macro@RS_set",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RS_set",
     "location": {
       "column": "9",
-      "line": "14",
+      "line": "15",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "RS_set",
@@ -48962,13 +48892,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@383@macro@RS_reset",
+    "ID": "c:main.c@420@macro@RS_reset",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RS_reset",
     "location": {
       "column": "9",
-      "line": "15",
+      "line": "16",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "RS_reset",
@@ -48976,13 +48906,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@423@macro@D7_set",
+    "ID": "c:main.c@460@macro@D7_set",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D7_set",
     "location": {
       "column": "9",
-      "line": "16",
+      "line": "17",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "D7_set",
@@ -48990,13 +48920,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@462@macro@D7_reset",
+    "ID": "c:main.c@499@macro@D7_reset",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D7_reset",
     "location": {
       "column": "9",
-      "line": "17",
+      "line": "18",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "D7_reset",
@@ -49004,13 +48934,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@502@macro@D6_set",
+    "ID": "c:main.c@539@macro@D6_set",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D6_set",
     "location": {
       "column": "9",
-      "line": "18",
+      "line": "19",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "D6_set",
@@ -49018,13 +48948,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@541@macro@D6_reset",
+    "ID": "c:main.c@578@macro@D6_reset",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D6_reset",
     "location": {
       "column": "9",
-      "line": "19",
+      "line": "20",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "D6_reset",
@@ -49032,13 +48962,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@581@macro@D5_set",
+    "ID": "c:main.c@618@macro@D5_set",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D5_set",
     "location": {
       "column": "9",
-      "line": "20",
+      "line": "21",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "D5_set",
@@ -49046,13 +48976,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@620@macro@D5_reset",
+    "ID": "c:main.c@657@macro@D5_reset",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D5_reset",
     "location": {
       "column": "9",
-      "line": "21",
+      "line": "22",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "D5_reset",
@@ -49060,13 +48990,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@660@macro@D4_set",
+    "ID": "c:main.c@697@macro@D4_set",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D4_set",
     "location": {
       "column": "9",
-      "line": "22",
+      "line": "23",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "D4_set",
@@ -49074,13 +49004,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@699@macro@D4_reset",
+    "ID": "c:main.c@736@macro@D4_reset",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "D4_reset",
     "location": {
       "column": "9",
-      "line": "23",
+      "line": "24",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "D4_reset",
@@ -49088,16 +49018,184 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@741@macro@Flash_StartAddress",
+    "ID": "c:main.c@778@macro@Flash_StartAddress",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "Flash_StartAddress",
     "location": {
       "column": "9",
-      "line": "25",
+      "line": "26",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Flash_StartAddress",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@820@macro@ONE_TIME_ALARM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ONE_TIME_ALARM",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "ONE_TIME_ALARM",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@855@macro@ALL_DAY_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ALL_DAY_MODE",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "ALL_DAY_MODE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@890@macro@WORK_DAY_MODE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WORK_DAY_MODE",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "WORK_DAY_MODE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@925@macro@ERROR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ERROR",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "ERROR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@960@macro@ALARM_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ALARM_1",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "ALARM_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@995@macro@ALARM_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ALARM_2",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "ALARM_2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1032@macro@DS3231_ADDRESS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DS3231_ADDRESS",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "DS3231_ADDRESS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1070@macro@TIME_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIME_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "TIME_OFFSET",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1108@macro@ALARM_1_ADDRESS_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ALARM_1_ADDRESS_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "ALARM_1_ADDRESS_OFFSET",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1155@macro@ALARM_2_ADDRESS_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ALARM_2_ADDRESS_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "ALARM_2_ADDRESS_OFFSET",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1193@macro@CTRL_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CTRL_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "CTRL_REG_OFFSET",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1239@macro@STATUS_REG_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STATUS_REG_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "STATUS_REG_OFFSET",
     "origin": "project_file",
     "scope": null
   },
@@ -49108,7 +49206,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "27",
+      "line": "41",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "members": [
@@ -49119,12 +49217,12 @@
         "display": "Select",
         "location": {
           "column": "12",
-          "line": "29",
+          "line": "43",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Select",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_27_9"
+        "scope": "_anonymous_main_c_41_9"
       },
       {
         "ID": "c:@SA@Events_t@FI@Left",
@@ -49133,12 +49231,12 @@
         "display": "Left",
         "location": {
           "column": "12",
-          "line": "30",
+          "line": "44",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Left",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_27_9"
+        "scope": "_anonymous_main_c_41_9"
       },
       {
         "ID": "c:@SA@Events_t@FI@Right",
@@ -49147,12 +49245,12 @@
         "display": "Right",
         "location": {
           "column": "12",
-          "line": "31",
+          "line": "45",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Right",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_27_9"
+        "scope": "_anonymous_main_c_41_9"
       },
       {
         "ID": "c:@SA@Events_t@FI@Up",
@@ -49161,12 +49259,12 @@
         "display": "Up",
         "location": {
           "column": "12",
-          "line": "32",
+          "line": "46",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Up",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_27_9"
+        "scope": "_anonymous_main_c_41_9"
       },
       {
         "ID": "c:@SA@Events_t@FI@Down",
@@ -49175,12 +49273,12 @@
         "display": "Down",
         "location": {
           "column": "12",
-          "line": "33",
+          "line": "47",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Down",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_27_9"
+        "scope": "_anonymous_main_c_41_9"
       },
       {
         "ID": "c:@SA@Events_t@FI@Unpress",
@@ -49189,12 +49287,12 @@
         "display": "Unpress",
         "location": {
           "column": "12",
-          "line": "34",
+          "line": "48",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Unpress",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_27_9"
+        "scope": "_anonymous_main_c_41_9"
       },
       {
         "ID": "c:@SA@Events_t@FI@Ready",
@@ -49203,12 +49301,12 @@
         "display": "Ready",
         "location": {
           "column": "12",
-          "line": "35",
+          "line": "49",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Ready",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_27_9"
+        "scope": "_anonymous_main_c_41_9"
       },
       {
         "ID": "c:@SA@Events_t@FI@LCD_Update",
@@ -49217,12 +49315,12 @@
         "display": "LCD_Update",
         "location": {
           "column": "12",
-          "line": "36",
+          "line": "50",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "LCD_Update",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_27_9"
+        "scope": "_anonymous_main_c_41_9"
       },
       {
         "ID": "c:@T@Events_t",
@@ -49231,12 +49329,12 @@
         "display": "struct Events_t",
         "location": {
           "column": "2",
-          "line": "37",
+          "line": "51",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Events_t",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_27_9"
+        "scope": "_anonymous_main_c_41_9"
       }
     ],
     "name": "",
@@ -49250,7 +49348,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "39",
+      "line": "53",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "members": [
@@ -49261,12 +49359,12 @@
         "display": "Hours",
         "location": {
           "column": "11",
-          "line": "41",
+          "line": "55",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Hours",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_39_9"
+        "scope": "_anonymous_main_c_53_9"
       },
       {
         "ID": "c:@SA@Alarm_t@FI@Minutes",
@@ -49275,12 +49373,12 @@
         "display": "Minutes",
         "location": {
           "column": "11",
-          "line": "42",
+          "line": "56",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Minutes",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_39_9"
+        "scope": "_anonymous_main_c_53_9"
       },
       {
         "ID": "c:@SA@Alarm_t@FI@Enable",
@@ -49289,12 +49387,12 @@
         "display": "Enable",
         "location": {
           "column": "12",
-          "line": "43",
+          "line": "57",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Enable",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_39_9"
+        "scope": "_anonymous_main_c_53_9"
       },
       {
         "ID": "c:@SA@Alarm_t@FI@Interrupt",
@@ -49303,40 +49401,26 @@
         "display": "Interrupt",
         "location": {
           "column": "12",
-          "line": "44",
+          "line": "58",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Interrupt",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_39_9"
+        "scope": "_anonymous_main_c_53_9"
       },
       {
-        "ID": "c:@SA@Alarm_t@FI@AllDayMode",
+        "ID": "c:@SA@Alarm_t@FI@Mode",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "AllDayMode",
+        "display": "Mode",
         "location": {
           "column": "12",
-          "line": "45",
+          "line": "59",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
-        "name": "AllDayMode",
+        "name": "Mode",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_39_9"
-      },
-      {
-        "ID": "c:@SA@Alarm_t@FI@WorkDayMode",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "WorkDayMode",
-        "location": {
-          "column": "12",
-          "line": "46",
-          "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-        },
-        "name": "WorkDayMode",
-        "origin": "project_file",
-        "scope": "_anonymous_main_c_39_9"
+        "scope": "_anonymous_main_c_53_9"
       },
       {
         "ID": "c:@SA@Alarm_t@FI@Reserved",
@@ -49345,12 +49429,12 @@
         "display": "Reserved",
         "location": {
           "column": "12",
-          "line": "47",
+          "line": "60",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Reserved",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_39_9"
+        "scope": "_anonymous_main_c_53_9"
       },
       {
         "ID": "c:@T@Alarm_t",
@@ -49359,15 +49443,73 @@
         "display": "struct Alarm_t",
         "location": {
           "column": "2",
-          "line": "48",
+          "line": "61",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Alarm_t",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_39_9"
+        "scope": "_anonymous_main_c_53_9"
       }
     ],
     "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@Alarms_t",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@Alarms_t@FI@Alarm1",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "Alarm1",
+        "location": {
+          "column": "11",
+          "line": "65",
+          "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+        },
+        "name": "Alarm1",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_63_9"
+      },
+      {
+        "ID": "c:@SA@Alarms_t@FI@Alarm2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "Alarm2",
+        "location": {
+          "column": "11",
+          "line": "66",
+          "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+        },
+        "name": "Alarm2",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_63_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@Alarms_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "struct Alarms_t",
+    "location": {
+      "column": "1",
+      "line": "68",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "Alarms_t",
     "origin": "project_file",
     "scope": null
   },
@@ -49378,7 +49520,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "50",
+      "line": "70",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "members": [
@@ -49389,12 +49531,12 @@
         "display": "Seconds",
         "location": {
           "column": "11",
-          "line": "52",
+          "line": "72",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Seconds",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_50_9"
+        "scope": "_anonymous_main_c_70_9"
       },
       {
         "ID": "c:@SA@Time_t@FI@Minutes",
@@ -49403,12 +49545,12 @@
         "display": "Minutes",
         "location": {
           "column": "11",
-          "line": "53",
+          "line": "73",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Minutes",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_50_9"
+        "scope": "_anonymous_main_c_70_9"
       },
       {
         "ID": "c:@SA@Time_t@FI@Hours",
@@ -49417,12 +49559,12 @@
         "display": "Hours",
         "location": {
           "column": "11",
-          "line": "54",
+          "line": "74",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Hours",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_50_9"
+        "scope": "_anonymous_main_c_70_9"
       },
       {
         "ID": "c:@T@Time_t",
@@ -49431,12 +49573,12 @@
         "display": "struct Time_t",
         "location": {
           "column": "2",
-          "line": "55",
+          "line": "75",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Time_t",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_50_9"
+        "scope": "_anonymous_main_c_70_9"
       }
     ],
     "name": "",
@@ -49450,7 +49592,7 @@
     "display": "",
     "location": {
       "column": "9",
-      "line": "57",
+      "line": "77",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "members": [
@@ -49461,12 +49603,12 @@
         "display": "Year",
         "location": {
           "column": "11",
-          "line": "59",
+          "line": "79",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Year",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_57_9"
+        "scope": "_anonymous_main_c_77_9"
       },
       {
         "ID": "c:@SA@Date_t@FI@Month",
@@ -49475,12 +49617,12 @@
         "display": "Month",
         "location": {
           "column": "11",
-          "line": "60",
+          "line": "80",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Month",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_57_9"
+        "scope": "_anonymous_main_c_77_9"
       },
       {
         "ID": "c:@SA@Date_t@FI@Day",
@@ -49489,12 +49631,12 @@
         "display": "Day",
         "location": {
           "column": "11",
-          "line": "61",
+          "line": "81",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Day",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_57_9"
+        "scope": "_anonymous_main_c_77_9"
       },
       {
         "ID": "c:@SA@Date_t@FI@Date",
@@ -49503,12 +49645,12 @@
         "display": "Date",
         "location": {
           "column": "11",
-          "line": "62",
+          "line": "82",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Date",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_57_9"
+        "scope": "_anonymous_main_c_77_9"
       },
       {
         "ID": "c:@T@Date_t",
@@ -49517,12 +49659,12 @@
         "display": "struct Date_t",
         "location": {
           "column": "2",
-          "line": "63",
+          "line": "83",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "Date_t",
         "origin": "project_file",
-        "scope": "_anonymous_main_c_57_9"
+        "scope": "_anonymous_main_c_77_9"
       }
     ],
     "name": "",
@@ -49542,7 +49684,7 @@
         "display": "TIME_MENU_MAIN",
         "location": {
           "column": "3",
-          "line": "67",
+          "line": "87",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "TIME_MENU_MAIN",
@@ -49556,7 +49698,7 @@
         "display": "ALARM_1_MAIN",
         "location": {
           "column": "3",
-          "line": "68",
+          "line": "88",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "ALARM_1_MAIN",
@@ -49570,7 +49712,7 @@
         "display": "ALARM_2_MAIN",
         "location": {
           "column": "3",
-          "line": "69",
+          "line": "89",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "ALARM_2_MAIN",
@@ -49584,7 +49726,7 @@
         "display": "TIME_SETTING",
         "location": {
           "column": "3",
-          "line": "70",
+          "line": "90",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "TIME_SETTING",
@@ -49598,7 +49740,7 @@
         "display": "ALARM_1_SETTING",
         "location": {
           "column": "3",
-          "line": "71",
+          "line": "91",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "ALARM_1_SETTING",
@@ -49612,7 +49754,7 @@
         "display": "ALARM_2_SETTING",
         "location": {
           "column": "3",
-          "line": "72",
+          "line": "92",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "ALARM_2_SETTING",
@@ -49622,7 +49764,7 @@
     ],
     "location": {
       "column": "9",
-      "line": "65",
+      "line": "85",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "",
@@ -49642,7 +49784,7 @@
         "display": "SET_DAY",
         "location": {
           "column": "3",
-          "line": "77",
+          "line": "97",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "SET_DAY",
@@ -49656,7 +49798,7 @@
         "display": "SET_DATE",
         "location": {
           "column": "3",
-          "line": "78",
+          "line": "98",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "SET_DATE",
@@ -49670,7 +49812,7 @@
         "display": "SET_MONTH",
         "location": {
           "column": "3",
-          "line": "79",
+          "line": "99",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "SET_MONTH",
@@ -49684,7 +49826,7 @@
         "display": "SET_YEAR",
         "location": {
           "column": "3",
-          "line": "80",
+          "line": "100",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "SET_YEAR",
@@ -49698,7 +49840,7 @@
         "display": "SET_HOUR",
         "location": {
           "column": "3",
-          "line": "81",
+          "line": "101",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "SET_HOUR",
@@ -49712,7 +49854,7 @@
         "display": "SET_MINUTES",
         "location": {
           "column": "3",
-          "line": "82",
+          "line": "102",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "SET_MINUTES",
@@ -49726,7 +49868,7 @@
         "display": "NOP",
         "location": {
           "column": "3",
-          "line": "83",
+          "line": "103",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "NOP",
@@ -49736,7 +49878,7 @@
     ],
     "location": {
       "column": "9",
-      "line": "75",
+      "line": "95",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "",
@@ -49756,7 +49898,7 @@
         "display": "ALARM_SET_ENABLE",
         "location": {
           "column": "3",
-          "line": "88",
+          "line": "108",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "ALARM_SET_ENABLE",
@@ -49770,7 +49912,7 @@
         "display": "ALARM_SET_MODE",
         "location": {
           "column": "3",
-          "line": "89",
+          "line": "109",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "ALARM_SET_MODE",
@@ -49784,7 +49926,7 @@
         "display": "ALARM_SET_HOUR",
         "location": {
           "column": "3",
-          "line": "90",
+          "line": "110",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "ALARM_SET_HOUR",
@@ -49798,7 +49940,7 @@
         "display": "ALARM_SET_MINUTES",
         "location": {
           "column": "3",
-          "line": "91",
+          "line": "111",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "ALARM_SET_MINUTES",
@@ -49812,7 +49954,7 @@
         "display": "ALARM_NOP",
         "location": {
           "column": "3",
-          "line": "92",
+          "line": "112",
           "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
         },
         "name": "ALARM_NOP",
@@ -49822,7 +49964,7 @@
     ],
     "location": {
       "column": "9",
-      "line": "86",
+      "line": "106",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "",
@@ -49836,7 +49978,7 @@
     "display": "Events",
     "location": {
       "column": "10",
-      "line": "95",
+      "line": "115",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Events",
@@ -49850,7 +49992,7 @@
     "display": "Time",
     "location": {
       "column": "8",
-      "line": "96",
+      "line": "116",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Time",
@@ -49864,7 +50006,7 @@
     "display": "Date",
     "location": {
       "column": "8",
-      "line": "97",
+      "line": "117",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Date",
@@ -49878,7 +50020,7 @@
     "display": "Menu_State",
     "location": {
       "column": "15",
-      "line": "98",
+      "line": "118",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Menu_State",
@@ -49892,7 +50034,7 @@
     "display": "Time_Setting",
     "location": {
       "column": "16",
-      "line": "99",
+      "line": "119",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Time_Setting",
@@ -49906,7 +50048,7 @@
     "display": "Alarm_Setting",
     "location": {
       "column": "17",
-      "line": "100",
+      "line": "120",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Alarm_Setting",
@@ -49914,310 +50056,16 @@
     "scope": null
   },
   {
-    "ID": "c:@Alarm1",
+    "ID": "c:@Alarm",
     "What": "Variable",
     "defdec": "Dec",
-    "display": "Alarm1",
+    "display": "Alarm",
     "location": {
-      "column": "9",
-      "line": "101",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "Alarm1",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@Alarm2",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "Alarm2",
-    "location": {
-      "column": "9",
-      "line": "102",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "Alarm2",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LCD_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "103",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "LCD_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_WriteCmd",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LCD_WriteCmd(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "104",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "LCD_WriteCmd",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_WriteData",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LCD_WriteData(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "105",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "LCD_WriteData",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_SetPos",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LCD_SetPos(uint8_t, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "106",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "LCD_SetPos",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_Data",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LCD_Data(uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "107",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "LCD_Data",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_String",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LCD_String(char *)",
-    "location": {
-      "column": "6",
-      "line": "108",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "LCD_String",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_SendChar",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LCD_SendChar(char)",
-    "location": {
-      "column": "6",
-      "line": "109",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "LCD_SendChar",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LCD_Clear",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LCD_Clear(void)",
-    "location": {
-      "column": "6",
-      "line": "110",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "LCD_Clear",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Delay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Delay(uint32_t)",
-    "location": {
-      "column": "6",
-      "line": "111",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "Delay",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@delay",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void delay(void)",
-    "location": {
-      "column": "6",
-      "line": "112",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "delay",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Clear_Events",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Clear_Events(void)",
-    "location": {
-      "column": "6",
-      "line": "113",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "Clear_Events",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Init_GPIO",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Init_GPIO(void)",
-    "location": {
-      "column": "6",
-      "line": "114",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "Init_GPIO",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Init_Timers",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Init_Timers(void)",
-    "location": {
-      "column": "6",
-      "line": "115",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "Init_Timers",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@BCD_TO_DEC",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t BCD_TO_DEC(uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "116",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "BCD_TO_DEC",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@DEC_TO_BCD",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t DEC_TO_BCD(uint8_t)",
-    "location": {
-      "column": "9",
-      "line": "117",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "DEC_TO_BCD",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@i2c_mem_read_arr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t i2c_mem_read_arr(uint16_t, uint16_t, uint8_t *, uint16_t)",
-    "location": {
-      "column": "9",
-      "line": "118",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "i2c_mem_read_arr",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@i2c_mem_write_arr",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8_t i2c_mem_write_arr(uint16_t, uint16_t, uint8_t *, uint16_t)",
-    "location": {
-      "column": "9",
-      "line": "119",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "i2c_mem_write_arr",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GetTimeDate",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void GetTimeDate(void)",
-    "location": {
-      "column": "6",
-      "line": "120",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "GetTimeDate",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SetTimeDate",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SetTimeDate(void)",
-    "location": {
-      "column": "6",
+      "column": "10",
       "line": "121",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
-    "name": "SetTimeDate",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@WriteDataToFlash",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void WriteDataToFlash(uint8_t *, uint8_t *, uint8_t)",
-    "location": {
-      "column": "6",
-      "line": "122",
-      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
-    },
-    "name": "WriteDataToFlash",
+    "name": "Alarm",
     "origin": "project_file",
     "scope": null
   },
@@ -50228,7 +50076,7 @@
     "display": "TimingDelay",
     "location": {
       "column": "26",
-      "line": "123",
+      "line": "122",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "TimingDelay",
@@ -50242,7 +50090,7 @@
     "display": "MenuTimer",
     "location": {
       "column": "17",
-      "line": "124",
+      "line": "123",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "MenuTimer",
@@ -50256,7 +50104,7 @@
     "display": "receive_data",
     "location": {
       "column": "16",
-      "line": "125",
+      "line": "124",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "receive_data",
@@ -50270,7 +50118,7 @@
     "display": "old_data",
     "location": {
       "column": "16",
-      "line": "126",
+      "line": "125",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "old_data",
@@ -50284,7 +50132,7 @@
     "display": "transmit_data",
     "location": {
       "column": "16",
-      "line": "127",
+      "line": "126",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "transmit_data",
@@ -50298,10 +50146,416 @@
     "display": "ButtonDelay",
     "location": {
       "column": "16",
-      "line": "128",
+      "line": "127",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "ButtonDelay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@BRNG_State",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "BRNG_State",
+    "location": {
+      "column": "16",
+      "line": "128",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "BRNG_State",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@BRNG_Tune_arr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "BRNG_Tune_arr",
+    "location": {
+      "column": "15",
+      "line": "129",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "BRNG_Tune_arr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@BRNG_Timer",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "BRNG_Timer",
+    "location": {
+      "column": "16",
+      "line": "130",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "BRNG_Timer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LCD_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "132",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "LCD_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_WriteCmd",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LCD_WriteCmd(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "133",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "LCD_WriteCmd",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_WriteData",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LCD_WriteData(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "134",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "LCD_WriteData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_SetPos",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LCD_SetPos(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "135",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "LCD_SetPos",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_Data",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LCD_Data(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "136",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "LCD_Data",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_String",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LCD_String(char *)",
+    "location": {
+      "column": "6",
+      "line": "137",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "LCD_String",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_SendChar",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LCD_SendChar(char)",
+    "location": {
+      "column": "6",
+      "line": "138",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "LCD_SendChar",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LCD_Clear",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LCD_Clear(void)",
+    "location": {
+      "column": "6",
+      "line": "139",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "LCD_Clear",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GetAlarmSettings",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GetAlarmSettings(Alarms_t *)",
+    "location": {
+      "column": "6",
+      "line": "140",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "GetAlarmSettings",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Delay(uint32_t)",
+    "location": {
+      "column": "6",
+      "line": "141",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@delay",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void delay(void)",
+    "location": {
+      "column": "6",
+      "line": "142",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Clear_Events",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Clear_Events(void)",
+    "location": {
+      "column": "6",
+      "line": "143",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "Clear_Events",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_GPIO",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_GPIO(void)",
+    "location": {
+      "column": "6",
+      "line": "144",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "Init_GPIO",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Init_Timers",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Init_Timers(void)",
+    "location": {
+      "column": "6",
+      "line": "145",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "Init_Timers",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GetTimeDate",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void GetTimeDate(void)",
+    "location": {
+      "column": "6",
+      "line": "146",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "GetTimeDate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SetTimeDate",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SetTimeDate(void)",
+    "location": {
+      "column": "6",
+      "line": "147",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "SetTimeDate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WriteDataToFlash",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void WriteDataToFlash(uint8_t *, uint8_t *, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "148",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "WriteDataToFlash",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BCD_TO_DEC",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t BCD_TO_DEC(uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "149",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "BCD_TO_DEC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DEC_TO_BCD",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t DEC_TO_BCD(uint8_t)",
+    "location": {
+      "column": "9",
+      "line": "150",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "DEC_TO_BCD",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@i2c_mem_read_arr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t i2c_mem_read_arr(uint16_t, uint16_t, uint8_t *, uint16_t)",
+    "location": {
+      "column": "9",
+      "line": "151",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "i2c_mem_read_arr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@i2c_mem_write_arr",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint8_t i2c_mem_write_arr(uint16_t, uint16_t, uint8_t *, uint16_t)",
+    "location": {
+      "column": "9",
+      "line": "152",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "i2c_mem_write_arr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AlarmSet",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void AlarmSet(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "153",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "AlarmSet",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AlarmIntDisable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void AlarmIntDisable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "154",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "AlarmIntDisable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AlarmIntEnable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void AlarmIntEnable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "155",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "AlarmIntEnable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CheckAlarms",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void CheckAlarms(void)",
+    "location": {
+      "column": "6",
+      "line": "156",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "CheckAlarms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AlarmBRNG",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void AlarmBRNG(void)",
+    "location": {
+      "column": "6",
+      "line": "157",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "AlarmBRNG",
     "origin": "project_file",
     "scope": null
   },
@@ -50312,7 +50566,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "129",
+      "line": "159",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "main",
@@ -50326,7 +50580,7 @@
     "display": "void LCD_Init(void)",
     "location": {
       "column": "6",
-      "line": "780",
+      "line": "1206",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "LCD_Init",
@@ -50340,7 +50594,7 @@
     "display": "void LCD_WriteCmd(uint8_t)",
     "location": {
       "column": "6",
-      "line": "813",
+      "line": "1239",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "LCD_WriteCmd",
@@ -50354,7 +50608,7 @@
     "display": "void LCD_WriteData(uint8_t)",
     "location": {
       "column": "6",
-      "line": "828",
+      "line": "1254",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "LCD_WriteData",
@@ -50368,7 +50622,7 @@
     "display": "void Delay(uint32_t)",
     "location": {
       "column": "6",
-      "line": "836",
+      "line": "1262",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Delay",
@@ -50382,7 +50636,7 @@
     "display": "void LCD_SetPos(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "843",
+      "line": "1269",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "LCD_SetPos",
@@ -50396,7 +50650,7 @@
     "display": "void LCD_Clear(void)",
     "location": {
       "column": "6",
-      "line": "858",
+      "line": "1284",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "LCD_Clear",
@@ -50410,7 +50664,7 @@
     "display": "void LCD_SendChar(char)",
     "location": {
       "column": "6",
-      "line": "864",
+      "line": "1290",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "LCD_SendChar",
@@ -50424,7 +50678,7 @@
     "display": "void LCD_String(char *)",
     "location": {
       "column": "6",
-      "line": "870",
+      "line": "1296",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "LCD_String",
@@ -50432,13 +50686,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@22900@F@LCD_String@i",
+    "ID": "c:main.c@35880@F@LCD_String@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "10",
-      "line": "872",
+      "line": "1298",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "i",
@@ -50452,7 +50706,7 @@
     "display": "void LCD_Data(uint8_t)",
     "location": {
       "column": "6",
-      "line": "880",
+      "line": "1306",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "LCD_Data",
@@ -50466,7 +50720,7 @@
     "display": "void delay(void)",
     "location": {
       "column": "6",
-      "line": "895",
+      "line": "1321",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "delay",
@@ -50474,13 +50728,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@23229@F@delay@i",
+    "ID": "c:main.c@36209@F@delay@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "12",
-      "line": "897",
+      "line": "1323",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "i",
@@ -50494,7 +50748,7 @@
     "display": "void Clear_Events(void)",
     "location": {
       "column": "6",
-      "line": "904",
+      "line": "1330",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Clear_Events",
@@ -50508,7 +50762,7 @@
     "display": "void Init_GPIO(void)",
     "location": {
       "column": "6",
-      "line": "914",
+      "line": "1340",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Init_GPIO",
@@ -50522,7 +50776,7 @@
     "display": "void Init_Timers(void)",
     "location": {
       "column": "6",
-      "line": "925",
+      "line": "1354",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "Init_Timers",
@@ -50536,7 +50790,7 @@
     "display": "uint8_t BCD_TO_DEC(uint8_t)",
     "location": {
       "column": "9",
-      "line": "936",
+      "line": "1365",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "BCD_TO_DEC",
@@ -50550,7 +50804,7 @@
     "display": "uint8_t DEC_TO_BCD(uint8_t)",
     "location": {
       "column": "9",
-      "line": "941",
+      "line": "1370",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "DEC_TO_BCD",
@@ -50564,7 +50818,7 @@
     "display": "uint8_t i2c_mem_read_arr(uint16_t, uint16_t, uint8_t *, uint16_t)",
     "location": {
       "column": "9",
-      "line": "946",
+      "line": "1375",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "i2c_mem_read_arr",
@@ -50572,13 +50826,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@24408@F@i2c_mem_read_arr@time_out",
+    "ID": "c:main.c@37566@F@i2c_mem_read_arr@time_out",
     "What": "Variable",
     "defdec": "Def",
     "display": "time_out",
     "location": {
       "column": "11",
-      "line": "948",
+      "line": "1377",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "time_out",
@@ -50592,7 +50846,7 @@
     "display": "uint8_t i2c_mem_write_arr(uint16_t, uint16_t, uint8_t *, uint16_t)",
     "location": {
       "column": "9",
-      "line": "1044",
+      "line": "1515",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "i2c_mem_write_arr",
@@ -50600,13 +50854,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@27979@F@i2c_mem_write_arr@time_out",
+    "ID": "c:main.c@42238@F@i2c_mem_write_arr@time_out",
     "What": "Variable",
     "defdec": "Def",
     "display": "time_out",
     "location": {
       "column": "11",
-      "line": "1046",
+      "line": "1517",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "time_out",
@@ -50614,13 +50868,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@28787@F@i2c_mem_write_arr@i",
+    "ID": "c:main.c@43046@F@i2c_mem_write_arr@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "15",
-      "line": "1070",
+      "line": "1541",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "i",
@@ -50634,7 +50888,7 @@
     "display": "void GetTimeDate(void)",
     "location": {
       "column": "6",
-      "line": "1081",
+      "line": "1552",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "GetTimeDate",
@@ -50648,7 +50902,7 @@
     "display": "void SetTimeDate(void)",
     "location": {
       "column": "6",
-      "line": "1094",
+      "line": "1565",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "SetTimeDate",
@@ -50662,7 +50916,7 @@
     "display": "void TIM4_UPD_OVF_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "1105",
+      "line": "1576",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "TIM4_UPD_OVF_IRQHandler",
@@ -50676,10 +50930,24 @@
     "display": "void EXTI_PORTD_IRQHandler(void)",
     "location": {
       "column": "1",
-      "line": "1117",
+      "line": "1588",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "EXTI_PORTD_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@44492@F@EXTI_PORTD_IRQHandler@k",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "k",
+    "location": {
+      "column": "28",
+      "line": "1590",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "k",
     "origin": "project_file",
     "scope": null
   },
@@ -50690,7 +50958,7 @@
     "display": "void IRQ_Handled_ADC1(void)",
     "location": {
       "column": "1",
-      "line": "1125",
+      "line": "1610",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "IRQ_Handled_ADC1",
@@ -50698,13 +50966,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@30241@F@IRQ_Handled_ADC1@ADC_Value",
+    "ID": "c:main.c@44939@F@IRQ_Handled_ADC1@ADC_Value",
     "What": "Variable",
     "defdec": "Def",
     "display": "ADC_Value",
     "location": {
       "column": "19",
-      "line": "1127",
+      "line": "1612",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "ADC_Value",
@@ -50718,7 +50986,7 @@
     "display": "void WriteDataToFlash(uint8_t *, uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "1179",
+      "line": "1659",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "WriteDataToFlash",
@@ -50726,16 +50994,226 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@31620@F@WriteDataToFlash@i",
+    "ID": "c:main.c@46256@F@WriteDataToFlash@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "11",
-      "line": "1180",
+      "line": "1660",
       "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
     },
     "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GetAlarmSettings",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GetAlarmSettings(Alarms_t *)",
+    "location": {
+      "column": "6",
+      "line": "1675",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "GetAlarmSettings",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@46667@F@GetAlarmSettings@Addres",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Addres",
+    "location": {
+      "column": "12",
+      "line": "1677",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "Addres",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@46687@F@GetAlarmSettings@Byte",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Byte",
+    "location": {
+      "column": "12",
+      "line": "1678",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "Byte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@46705@F@GetAlarmSettings@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "11",
+      "line": "1679",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AlarmSet",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void AlarmSet(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "1690",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "AlarmSet",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@46942@F@AlarmSet@TxBuffer",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "TxBuffer",
+    "location": {
+      "column": "11",
+      "line": "1692",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "TxBuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@46966@F@AlarmSet@Offset",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "Offset",
+    "location": {
+      "column": "11",
+      "line": "1693",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "Offset",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AlarmIntEnable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void AlarmIntEnable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "1717",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "AlarmIntEnable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@47668@F@AlarmIntEnable@CtrlByte",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "CtrlByte",
+    "location": {
+      "column": "11",
+      "line": "1719",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "CtrlByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AlarmIntDisable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void AlarmIntDisable(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "1732",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "AlarmIntDisable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@47959@F@AlarmIntDisable@CtrlByte",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "CtrlByte",
+    "location": {
+      "column": "11",
+      "line": "1734",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "CtrlByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CheckAlarms",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void CheckAlarms(void)",
+    "location": {
+      "column": "6",
+      "line": "1747",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "CheckAlarms",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@48237@F@CheckAlarms@StatusByte",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "StatusByte",
+    "location": {
+      "column": "11",
+      "line": "1749",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "StatusByte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@AlarmBRNG",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void AlarmBRNG(void)",
+    "location": {
+      "column": "6",
+      "line": "1761",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "AlarmBRNG",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@48508@F@AlarmBRNG@BRNG_RollTimer",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "BRNG_RollTimer",
+    "location": {
+      "column": "11",
+      "line": "1763",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\main.c"
+    },
+    "name": "BRNG_RollTimer",
     "origin": "project_file",
     "scope": null
   },
@@ -53434,6 +53912,90 @@
     "scope": null
   },
   {
+    "ID": "c:stm8s_wwdg.c@1413@macro@BIT_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BIT_MASK",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "BIT_MASK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_Init(uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "53",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "WWDG_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SetCounter(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "69",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "WWDG_SetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_GetCounter",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint8_t WWDG_GetCounter(void)",
+    "location": {
+      "column": "9",
+      "line": "86",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "WWDG_GetCounter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SWReset",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SWReset(void)",
+    "location": {
+      "column": "6",
+      "line": "96",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "WWDG_SWReset",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@WWDG_SetWindowValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void WWDG_SetWindowValue(uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "108",
+      "path": "F:\\Program Files\\Development\\Projects\\stm8s\\Alarm\\STM8S_StdPeriph_Lib\\src\\stm8s_wwdg.c"
+    },
+    "name": "WWDG_SetWindowValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:DLib_Defaults.h@1168@macro@_DLIB_DEFAULTS_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -54456,90 +55018,6 @@
     "scope": null
   },
   {
-    "ID": "c:xencoding_limits.h@130@macro@_XENCODING_LIMITS_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_XENCODING_LIMITS_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_XENCODING_LIMITS_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@329@macro@_EncodingSb_LenMax",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_EncodingSb_LenMax",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_EncodingSb_LenMax",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@461@macro@_EncodingUtf8_LenMax",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_EncodingUtf8_LenMax",
-    "location": {
-      "column": "11",
-      "line": "20",
-      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_EncodingUtf8_LenMax",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1097@macro@_ENCODING_WITH_USED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_WITH_USED",
-    "location": {
-      "column": "13",
-      "line": "47",
-      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_WITH_USED",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1161@macro@_ENCODING_LEN_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_LEN_MAX",
-    "location": {
-      "column": "11",
-      "line": "51",
-      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_LEN_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:xencoding_limits.h@1218@macro@_ENCODING_CUR_MAX",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ENCODING_CUR_MAX",
-    "location": {
-      "column": "11",
-      "line": "52",
-      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
-    },
-    "name": "_ENCODING_CUR_MAX",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:ysizet.h@111@macro@_YSIZET_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -54634,6 +55112,90 @@
       "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\ysizet.h"
     },
     "name": "__data_size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@130@macro@_XENCODING_LIMITS_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_XENCODING_LIMITS_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_XENCODING_LIMITS_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@329@macro@_EncodingSb_LenMax",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_EncodingSb_LenMax",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_EncodingSb_LenMax",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@461@macro@_EncodingUtf8_LenMax",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_EncodingUtf8_LenMax",
+    "location": {
+      "column": "11",
+      "line": "20",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_EncodingUtf8_LenMax",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@1097@macro@_ENCODING_WITH_USED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ENCODING_WITH_USED",
+    "location": {
+      "column": "13",
+      "line": "47",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_ENCODING_WITH_USED",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@1161@macro@_ENCODING_LEN_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ENCODING_LEN_MAX",
+    "location": {
+      "column": "11",
+      "line": "51",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_ENCODING_LEN_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:xencoding_limits.h@1218@macro@_ENCODING_CUR_MAX",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ENCODING_CUR_MAX",
+    "location": {
+      "column": "11",
+      "line": "52",
+      "path": "F:\\Program Files\\Development\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
+    },
+    "name": "_ENCODING_CUR_MAX",
     "origin": "system_include",
     "scope": null
   },
